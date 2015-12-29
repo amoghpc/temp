@@ -1,0 +1,6 @@
+/home/openair/openair-cn/BUILD/HSS/BUILD/CMakeFiles/hss_access_restriction.dir
+/home/openair/openair-cn/BUILD/HSS/BUILD/CMakeFiles/hss_auc.dir
+/home/openair/openair-cn/BUILD/HSS/BUILD/CMakeFiles/hss_db.dir
+/home/openair/openair-cn/BUILD/HSS/BUILD/CMakeFiles/hss_s6a.dir
+/home/openair/openair-cn/BUILD/HSS/BUILD/CMakeFiles/hss_utils.dir
+/home/openair/openair-cn/BUILD/HSS/BUILD/CMakeFiles/oai_hss.dir

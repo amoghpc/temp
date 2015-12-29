@@ -1,0 +1,2 @@
+/usr/bin/ar cr libMSC.a  CMakeFiles/MSC.dir/home/openair/openair-cn/UTILS/MSC/msc.c.o
+/usr/bin/ranlib libMSC.a

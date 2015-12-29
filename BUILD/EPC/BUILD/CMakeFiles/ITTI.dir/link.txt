@@ -1,0 +1,2 @@
+/usr/bin/ar cr libITTI.a  CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/intertask_interface.c.o CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/intertask_interface_dump.c.o CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/backtrace.c.o CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/memory_pools.c.o CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/signals.c.o CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/timer.c.o
+/usr/bin/ranlib libITTI.a

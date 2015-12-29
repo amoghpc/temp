@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/openair/openair-cn/OAI_HSS/utils/conversion.c
+stdlib.h
+-
+stdint.h
+-
+ctype.h
+-
+conversion.h
+/home/openair/openair-cn/OAI_HSS/utils/conversion.h
+
+/home/openair/openair-cn/OAI_HSS/utils/conversion.h
+
+/home/openair/openair-cn/OAI_HSS/utils/hss_config.c
+config.h
+/home/openair/openair-cn/OAI_HSS/utils/config.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+stdint.h
+-
+errno.h
+-
+getopt.h
+-
+libconfig.h
+-
+hss_config.h
+/home/openair/openair-cn/OAI_HSS/utils/hss_config.h
+
+/home/openair/openair-cn/OAI_HSS/utils/hss_config.h
+

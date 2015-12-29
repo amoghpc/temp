@@ -1,0 +1,4 @@
+/usr/local/bin/mme_gw
+/usr/local/etc/oai/epc.local.enb.conf
+/usr/local/etc/oai/epc.conf
+/usr/lib/../etc/freeDiameter/mme_fd.conf

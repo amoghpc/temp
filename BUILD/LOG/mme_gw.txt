@@ -1,0 +1,1479 @@
+[  1%] Scanning dependencies of target HASHTABLE
+[  1%] Generating CMakeFiles/R10.5/s1ap_decoder.c, CMakeFiles/R10.5/s1ap_encoder.c, CMakeFiles/R10.5/s1ap_xer_print.c, CMakeFiles/R10.5/s1ap_ies_defs.h
+Building C object CMakeFiles/HASHTABLE.dir/home/openair/openair-cn/UTILS/HASHTABLE/hashtable.c.o
+Scanning dependencies of target SECU_CN
+Scanning dependencies of target LFDS
+[  1%] Building C object CMakeFiles/SECU_CN.dir/home/openair/openair-cn/SECU/kdf.c.o
+[  1%] Scanning dependencies of target CN_UTILS
+Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o
+Scanning dependencies of target MSC
+[  1%] [  1%] Generating CMakeFiles/R10.5/s1ap_decoder.c, CMakeFiles/R10.5/s1ap_encoder.c, CMakeFiles/R10.5/s1ap_xer_print.c, CMakeFiles/R10.5/s1ap_ies_defs.h
+Building C object CMakeFiles/CN_UTILS.dir/home/openair/openair-cn/UTILS/conversions.c.o
+Scanning dependencies of target ITTI
+[  1%] /home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c:75:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c:88:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+[  2%] Building C object CMakeFiles/MSC.dir/home/openair/openair-cn/UTILS/MSC/msc.c.o
+Building C object CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/intertask_interface.c.o
+[  3%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o
+[  4%] Building C object CMakeFiles/SECU_CN.dir/home/openair/openair-cn/SECU/rijndael.c.o
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c:37:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c:66:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+[  4%] [  4%] Building C object CMakeFiles/SECU_CN.dir/home/openair/openair-cn/SECU/snow3g.c.o
+Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o
+[  4%] Building C object CMakeFiles/CN_UTILS.dir/home/openair/openair-cn/UTILS/enum_string.c.o
+[  4%] Building C object CMakeFiles/HASHTABLE.dir/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o
+[  4%] Building C object CMakeFiles/CN_UTILS.dir/home/openair/openair-cn/UTILS/log.c.o
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c:77:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c:88:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c:95:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c:114:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.c: In function ‘obj_hashtable_resize’:
+/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.c:544:2: warning: #warning "TODO obj_hashtable_resize()" [-Wcpp]
+ #warning "TODO obj_hashtable_resize()"
+  ^
+[  4%] Building C object CMakeFiles/SECU_CN.dir/home/openair/openair-cn/SECU/key_nas_deriver.c.o
+[  4%] [  4%] Building C object CMakeFiles/CN_UTILS.dir/home/openair/openair-cn/UTILS/mme_config.c.o
+Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o
+Linking C static library libMSC.a
+[  4%] Built target MSC
+[  4%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o
+[  4%] Building C object CMakeFiles/SECU_CN.dir/home/openair/openair-cn/SECU/nas_stream_eea1.c.o
+[  4%] Building C object CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/intertask_interface_dump.c.o
+Linking C static library libHASHTABLE.a
+[93mDidn't find any information element for message: S1ap-PrivateMessageIEs[0m
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c:83:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c:94:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+[  4%] Built target HASHTABLE
+/home/openair/openair-cn/SECU/nas_stream_eea1.c: In function ‘nas_stream_encrypt_eea1’:
+/home/openair/openair-cn/SECU/nas_stream_eea1.c:48:43: warning: variable ‘byte_length’ set but not used [-Wunused-but-set-variable]
+   uint32_t                                byte_length;
+                                           ^
+[  4%] Scanning dependencies of target GTPV1U
+Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o
+[  4%] Building C object CMakeFiles/GTPV1U.dir/home/openair/openair-cn/GTPV1-U/gtpv1u_teid_pool.c.o
+[93mDidn't find any information element for message: S1ap-PrivateMessageIEs[0m
+In file included from /home/openair/openair-cn/GTPV1-U/gtpv1u_teid_pool.c:30:0:
+/home/openair/openair-cn/GTPV1-U/gtpv1u.h:40:2: warning: #warning "TO BE REFINED" [-Wcpp]
+ #warning "TO BE REFINED"
+  ^
+Linking C static library libGTPV1U.a
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c:37:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/mme_config.c: In function ‘config_parse_file’:
+/home/openair/openair-cn/UTILS/mme_config.c:221:5: warning: passing argument 3 of ‘config_setting_lookup_int’ from incompatible pointer type [enabled by default]
+     if ((config_setting_lookup_int (setting_mme, MME_CONFIG_STRING_MAXENB, &alongint))) {
+     ^
+In file included from /home/openair/openair-cn/UTILS/mme_config.c:41:0:
+/usr/include/libconfig.h:152:26: note: expected ‘int *’ but argument is of type ‘long int *’
+ extern LIBCONFIG_API int config_setting_lookup_int(
+                          ^
+/home/openair/openair-cn/UTILS/mme_config.c:225:5: warning: passing argument 3 of ‘config_setting_lookup_int’ from incompatible pointer type [enabled by default]
+     if ((config_setting_lookup_int (setting_mme, MME_CONFIG_STRING_MAXUE, &alongint))) {
+     ^
+In file included from /home/openair/openair-cn/UTILS/mme_config.c:41:0:
+/usr/include/libconfig.h:152:26: note: expected ‘int *’ but argument is of type ‘long int *’
+ extern LIBCONFIG_API int config_setting_lookup_int(
+                          ^
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c:62:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/mme_config.c:229:5: warning: passing argument 3 of ‘config_setting_lookup_int’ from incompatible pointer type [enabled by default]
+     if ((config_setting_lookup_int (setting_mme, MME_CONFIG_STRING_RELATIVE_CAPACITY, &alongint))) {
+     ^
+In file included from /home/openair/openair-cn/UTILS/mme_config.c:41:0:
+/usr/include/libconfig.h:152:26: note: expected ‘int *’ but argument is of type ‘long int *’
+ extern LIBCONFIG_API int config_setting_lookup_int(
+                          ^
+/home/openair/openair-cn/UTILS/mme_config.c:233:5: warning: passing argument 3 of ‘config_setting_lookup_int’ from incompatible pointer type [enabled by default]
+     if ((config_setting_lookup_int (setting_mme, MME_CONFIG_STRING_STATISTIC_TIMER, &alongint))) {
+     ^
+In file included from /home/openair/openair-cn/UTILS/mme_config.c:41:0:
+/usr/include/libconfig.h:152:26: note: expected ‘int *’ but argument is of type ‘long int *’
+ extern LIBCONFIG_API int config_setting_lookup_int(
+                          ^
+/home/openair/openair-cn/UTILS/mme_config.c:265:7: warning: passing argument 3 of ‘config_setting_lookup_int’ from incompatible pointer type [enabled by default]
+       if ((config_setting_lookup_int (setting, MME_CONFIG_STRING_INTERTASK_INTERFACE_QUEUE_SIZE, &alongint))) {
+       ^
+In file included from /home/openair/openair-cn/UTILS/mme_config.c:41:0:
+/usr/include/libconfig.h:152:26: note: expected ‘int *’ but argument is of type ‘long int *’
+ extern LIBCONFIG_API int config_setting_lookup_int(
+                          ^
+/home/openair/openair-cn/UTILS/mme_config.c:289:7: warning: passing argument 3 of ‘config_setting_lookup_int’ from incompatible pointer type [enabled by default]
+       if ((config_setting_lookup_int (setting, MME_CONFIG_STRING_SCTP_INSTREAMS, &alongint))) {
+       ^
+In file included from /home/openair/openair-cn/UTILS/mme_config.c:41:0:
+/usr/include/libconfig.h:152:26: note: expected ‘int *’ but argument is of type ‘long int *’
+ extern LIBCONFIG_API int config_setting_lookup_int(
+                          ^
+/home/openair/openair-cn/UTILS/mme_config.c:293:7: warning: passing argument 3 of ‘config_setting_lookup_int’ from incompatible pointer type [enabled by default]
+       if ((config_setting_lookup_int (setting, MME_CONFIG_STRING_SCTP_OUTSTREAMS, &alongint))) {
+       ^
+In file included from /home/openair/openair-cn/UTILS/mme_config.c:41:0:
+/usr/include/libconfig.h:152:26: note: expected ‘int *’ but argument is of type ‘long int *’
+ extern LIBCONFIG_API int config_setting_lookup_int(
+                          ^
+/home/openair/openair-cn/UTILS/mme_config.c:301:7: warning: passing argument 3 of ‘config_setting_lookup_int’ from incompatible pointer type [enabled by default]
+       if ((config_setting_lookup_int (setting, MME_CONFIG_STRING_S1AP_OUTCOME_TIMER, &alongint))) {
+       ^
+In file included from /home/openair/openair-cn/UTILS/mme_config.c:41:0:
+/usr/include/libconfig.h:152:26: note: expected ‘int *’ but argument is of type ‘long int *’
+ extern LIBCONFIG_API int config_setting_lookup_int(
+                          ^
+/home/openair/openair-cn/UTILS/mme_config.c:305:7: warning: passing argument 3 of ‘config_setting_lookup_int’ from incompatible pointer type [enabled by default]
+       if ((config_setting_lookup_int (setting, MME_CONFIG_STRING_S1AP_PORT, &alongint))) {
+       ^
+In file included from /home/openair/openair-cn/UTILS/mme_config.c:41:0:
+/usr/include/libconfig.h:152:26: note: expected ‘int *’ but argument is of type ‘long int *’
+ extern LIBCONFIG_API int config_setting_lookup_int(
+                          ^
+/home/openair/openair-cn/UTILS/mme_config.c:454:21: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+             astring = config_setting_get_string_elem (subsetting, i);
+                     ^
+[  4%] Built target GTPV1U
+/home/openair/openair-cn/UTILS/mme_config.c:487:21: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+             astring = config_setting_get_string_elem (subsetting, i);
+                     ^
+/home/openair/openair-cn/UTILS/mme_config.c:523:12: warning: passing argument 3 of ‘config_setting_lookup_int’ from incompatible pointer type [enabled by default]
+            && config_setting_lookup_int (subsetting, SGW_CONFIG_STRING_SGW_PORT_FOR_S1U_S12_S4_UP, &alongint)
+            ^
+In file included from /home/openair/openair-cn/UTILS/mme_config.c:41:0:
+/usr/include/libconfig.h:152:26: note: expected ‘int *’ but argument is of type ‘long int *’
+ extern LIBCONFIG_API int config_setting_lookup_int(
+                          ^
+[  4%] [  4%] Building C object CMakeFiles/SECU_CN.dir/home/openair/openair-cn/SECU/nas_stream_eia1.c.o
+Scanning dependencies of target GTPV2C
+Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o
+[  4%] Building C object CMakeFiles/GTPV2C.dir/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2cTrxn.c.o
+Scanning dependencies of target S1AP_EPC
+[  5%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o
+[  5%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o
+[  5%] Building C object CMakeFiles/S1AP_EPC.dir/home/openair/openair-cn/S1AP/s1ap_mme_encoder.c.o
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c:65:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c:76:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+[  5%] Building C object CMakeFiles/CN_UTILS.dir/home/openair/openair-cn/UTILS/mcc_mnc_itu.c.o
+[  5%] Building C object CMakeFiles/SECU_CN.dir/home/openair/openair-cn/SECU/nas_stream_eea2.c.o
+[  5%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o
+[  6%] Building C object CMakeFiles/GTPV2C.dir/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2cTunnel.c.o
+[  6%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o
+[  6%] Building C object CMakeFiles/SECU_CN.dir/home/openair/openair-cn/SECU/nas_stream_eia2.c.o
+[  6%] Building C object CMakeFiles/GTPV2C.dir/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2cMsg.c.o
+[  6%] Building C object CMakeFiles/GTPV2C.dir/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2cMsgIeParseInfo.c.o
+[  6%] Building C object CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/backtrace.c.o
+[  6%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2cMsgIeParseInfo.c:390:43: warning: ‘nwGtpv2cMsgGroupedIeCount’ defined but not used [-Wunused-function]
+   static uint32_t                         nwGtpv2cMsgGroupedIeCount (
+                                           ^
+/home/openair/openair-cn/SECU/nas_stream_eia2.c: In function ‘nas_stream_encrypt_eia2’:
+/home/openair/openair-cn/SECU/nas_stream_eia2.c:61:43: warning: variable ‘ret’ set but not used [-Wunused-but-set-variable]
+   int                                     ret;
+                                           ^
+[  6%] [  6%] Building C object CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/memory_pools.c.o
+Building C object CMakeFiles/S1AP_EPC.dir/home/openair/openair-cn/S1AP/s1ap_mme_decoder.c.o
+[  6%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o
+Linking C static library libCN_UTILS.a
+Linking C static library libSECU_CN.a
+[  6%] Built target CN_UTILS
+[  6%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o
+[  6%] Built target SECU_CN
+[  7%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o
+[  7%] Scanning dependencies of target SCTP_SERVER
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c:74:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c:85:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c:92:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c:111:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c:91:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c:104:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o
+[  7%] Building C object CMakeFiles/SCTP_SERVER.dir/home/openair/openair-cn/SCTP/sctp_common.c.o
+[  7%] Building C object CMakeFiles/GTPV2C.dir/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2cMsgParser.c.o
+[  7%] Building C object CMakeFiles/GTPV2C.dir/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c.o
+[  7%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o
+[  7%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c: In function ‘nwGtpv2cInitialize’:
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:953:18: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+       thiz->id = (uint32_t) thiz;
+                  ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:954:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+       thiz->seqNum = ((uint32_t) thiz) & 0x0000FFFF;
+                       ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:959:27: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+       thiz->hTmrMinHeap = (NwHandleT) nwGtpv2cTmrMinHeapNew (10000);
+                           ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c: In function ‘nwGtpv2cProcessTimeout’:
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:1319:7: warning: passing argument 1 of ‘nwGtpv2cTmrMinHeapRemove’ makes pointer from integer without a cast [enabled by default]
+       rc = nwGtpv2cTmrMinHeapRemove (thiz->hTmrMinHeap, timeoutInfo->timerMinHeapIndex);
+       ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:145:43: note: expected ‘struct NwGtpv2cTmrMinHeapT *’ but argument is of type ‘NwHandleT’
+   static NwRcT                            nwGtpv2cTmrMinHeapRemove (
+                                           ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:1331:5: warning: passing argument 1 of ‘nwGtpv2cTmrMinHeapPeek’ makes pointer from integer without a cast [enabled by default]
+     timeoutInfo = nwGtpv2cTmrMinHeapPeek (thiz->hTmrMinHeap);
+     ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:200:43: note: expected ‘struct NwGtpv2cTmrMinHeapT *’ but argument is of type ‘NwHandleT’
+   static NwGtpv2cTimeoutInfoT            *nwGtpv2cTmrMinHeapPeek (
+                                           ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:1337:7: warning: passing argument 1 of ‘nwGtpv2cTmrMinHeapRemove’ makes pointer from integer without a cast [enabled by default]
+       rc = nwGtpv2cTmrMinHeapRemove (thiz->hTmrMinHeap, timeoutInfo->timerMinHeapIndex);
+       ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:145:43: note: expected ‘struct NwGtpv2cTmrMinHeapT *’ but argument is of type ‘NwHandleT’
+   static NwRcT                            nwGtpv2cTmrMinHeapRemove (
+                                           ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:1341:7: warning: passing argument 1 of ‘nwGtpv2cTmrMinHeapPeek’ makes pointer from integer without a cast [enabled by default]
+       timeoutInfo = nwGtpv2cTmrMinHeapPeek (thiz->hTmrMinHeap);
+       ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:200:43: note: expected ‘struct NwGtpv2cTmrMinHeapT *’ but argument is of type ‘NwHandleT’
+   static NwGtpv2cTimeoutInfoT            *nwGtpv2cTmrMinHeapPeek (
+                                           ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:1351:7: warning: passing argument 1 of ‘nwGtpv2cTmrMinHeapPeek’ makes pointer from integer without a cast [enabled by default]
+       timeoutInfo = nwGtpv2cTmrMinHeapPeek (thiz->hTmrMinHeap);
+       ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:200:43: note: expected ‘struct NwGtpv2cTmrMinHeapT *’ but argument is of type ‘NwHandleT’
+   static NwGtpv2cTimeoutInfoT            *nwGtpv2cTmrMinHeapPeek (
+                                           ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c: In function ‘nwGtpv2cStartTimer’:
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:1405:7: warning: passing argument 1 of ‘nwGtpv2cTmrMinHeapInsert’ makes pointer from integer without a cast [enabled by default]
+       rc = nwGtpv2cTmrMinHeapInsert (thiz->hTmrMinHeap, timeoutInfo);
+       ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:126:43: note: expected ‘struct NwGtpv2cTmrMinHeapT *’ but argument is of type ‘NwHandleT’
+   static NwRcT                            nwGtpv2cTmrMinHeapInsert (
+                                           ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:1384:45: warning: unused variable ‘collision’ [-Wunused-variable]
+     NwGtpv2cTimeoutInfoT                   *collision;
+                                             ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c: In function ‘nwGtpv2cStopTimer’:
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:1535:5: warning: passing argument 1 of ‘nwGtpv2cTmrMinHeapRemove’ makes pointer from integer without a cast [enabled by default]
+     rc = nwGtpv2cTmrMinHeapRemove (thiz->hTmrMinHeap, timeoutInfo->timerMinHeapIndex);
+     ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:145:43: note: expected ‘struct NwGtpv2cTmrMinHeapT *’ but argument is of type ‘NwHandleT’
+   static NwRcT                            nwGtpv2cTmrMinHeapRemove (
+                                           ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:1545:7: warning: passing argument 1 of ‘nwGtpv2cTmrMinHeapPeek’ makes pointer from integer without a cast [enabled by default]
+       timeoutInfo = nwGtpv2cTmrMinHeapPeek (thiz->hTmrMinHeap);
+       ^
+/home/openair/openair-cn/GTPV2-C/nwgtpv2c-0.11/src/NwGtpv2c.c:200:43: note: expected ‘struct NwGtpv2cTmrMinHeapT *’ but argument is of type ‘NwHandleT’
+   static NwGtpv2cTimeoutInfoT            *nwGtpv2cTmrMinHeapPeek (
+                                           ^
+[  7%] Building C object CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/signals.c.o
+Scanning dependencies of target UDP_SERVER
+[  7%] [  7%] [  7%] Building C object CMakeFiles/SCTP_SERVER.dir/home/openair/openair-cn/SCTP/sctp_itti_messaging.c.o
+Building C object CMakeFiles/UDP_SERVER.dir/home/openair/openair-cn/UDP/udp_primitives_server.c.o
+Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o
+[  7%] /home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c:81:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c:92:0: warning: ignoring #pragma warning  [-Wunknown-pragmas]
+Building C object CMakeFiles/S1AP_EPC.dir/home/openair/openair-cn/S1AP/s1ap_mme_handlers.c.o
+[  7%] Building C object CMakeFiles/S1AP_EPC.dir/home/openair/openair-cn/S1AP/s1ap_mme_nas_procedures.c.o
+[  7%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o
+[  7%] Building C object CMakeFiles/ITTI.dir/home/openair/openair-cn/COMMON/ITTI/timer.c.o
+/home/openair/openair-cn/UDP/udp_primitives_server.c: In function ‘udp_print_hex_octets’:
+/home/openair/openair-cn/UDP/udp_primitives_server.c:104:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘__suseconds_t’ [-Wformat=]
+   snprintf (timeofday, 64, "%02d:%02d:%02d.%06d", h, m, s, tv.tv_usec);
+   ^
+/home/openair/openair-cn/UDP/udp_primitives_server.c:104:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘__suseconds_t’ [-Wformat=]
+[  7%] Building C object CMakeFiles/SCTP_SERVER.dir/home/openair/openair-cn/SCTP/sctp_primitives_server.c.o
+[  7%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o
+/home/openair/openair-cn/S1AP/s1ap_mme_handlers.c: In function ‘s1ap_mme_handle_ue_context_release_request’:
+/home/openair/openair-cn/S1AP/s1ap_mme_handlers.c:624:5: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 3 has type ‘S1ap_MME_UE_S1AP_ID_t’ [-Wformat=]
+     S1AP_DEBUG ("UE_CONTEXT_RELEASE_REQUEST ignored cause could not get context with mme_ue_s1ap_id " S1AP_UE_ID_FMT " %u(10)\n", ueContextReleaseRequest_p->mme_ue_s1ap_id, ueContextReleaseRequest_p->mme_ue_s1ap_id);
+     ^
+/home/openair/openair-cn/S1AP/s1ap_mme_handlers.c:624:5: warning: format ‘%u’ expects argument of type ‘unsigned int’, but argument 4 has type ‘S1ap_MME_UE_S1AP_ID_t’ [-Wformat=]
+/home/openair/openair-cn/S1AP/s1ap_mme_handlers.c:644:7: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 4 has type ‘S1ap_ENB_UE_S1AP_ID_t’ [-Wformat=]
+       S1AP_DEBUG ("UE_CONTEXT_RELEASE_REQUEST ignored, cause mismatch eNB_ue_s1ap_id: ctxt " S1AP_UE_ID_FMT " != request " S1AP_UE_ID_FMT " ", ue_ref_p->eNB_ue_s1ap_id, ueContextReleaseRequest_p->eNB_UE_S1AP_ID);
+       ^
+[  8%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o
+/home/openair/openair-cn/S1AP/s1ap_mme_nas_procedures.c: In function ‘s1ap_mme_handle_initial_ue_message’:
+/home/openair/openair-cn/S1AP/s1ap_mme_nas_procedures.c:96:30: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     ue_ref->mme_ue_s1ap_id = (uint32_t) ue_ref;
+                              ^
+/home/openair/openair-cn/S1AP/s1ap_mme_nas_procedures.c: In function ‘s1ap_generate_downlink_nas_transport’:
+/home/openair/openair-cn/S1AP/s1ap_mme_nas_procedures.c:271:5: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 4 has type ‘S1ap_MME_UE_S1AP_ID_t’ [-Wformat=]
+     S1AP_DEBUG ("Send S1ap_ProcedureCode_id_downlinkNASTransport ue_id = " S1AP_UE_ID_FMT " mme_ue_s1ap_id = " S1AP_UE_ID_FMT " eNB_UE_S1AP_ID = " S1AP_UE_ID_FMT "\n",
+     ^
+/home/openair/openair-cn/S1AP/s1ap_mme_nas_procedures.c:271:5: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 5 has type ‘S1ap_ENB_UE_S1AP_ID_t’ [-Wformat=]
+Scanning dependencies of target S1AP_LIB
+[  8%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o
+Linking C static library libITTI.a
+Linking C static library libUDP_SERVER.a
+[  8%] Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o
+[  8%] Built target ITTI
+[  8%] Built target UDP_SERVER
+[  8%] Scanning dependencies of target S6A
+[  8%] [  8%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/s1ap_decoder.c.o
+Building C object CMakeFiles/LFDS.dir/home/openair/openair-cn/UTILS/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o
+Building C object CMakeFiles/S1AP_EPC.dir/home/openair/openair-cn/S1AP/s1ap_mme.c.o
+[  8%] Building C object CMakeFiles/S6A.dir/home/openair/openair-cn/S6A/s6a_auth_info.c.o
+Scanning dependencies of target SGW
+[  9%] Building C object CMakeFiles/SGW.dir/home/openair/openair-cn/SGW-LITE/spgw_config.c.o
+Linking C static library libLFDS.a
+[  9%] Built target LFDS
+[  9%] [  9%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/s1ap_encoder.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/s1ap_xer_print.c.o
+Linking C static library libSCTP_SERVER.a
+[  9%] Built target SCTP_SERVER
+[  9%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GTP-TEID.c.o
+/home/openair/openair-cn/SGW-LITE/spgw_config.c: In function ‘spgw_config_init’:
+/home/openair/openair-cn/SGW-LITE/spgw_config.c:398:19: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+           astring = config_setting_get_string_elem (sub2setting, i);
+                   ^
+/home/openair/openair-cn/SGW-LITE/spgw_config.c:481:19: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+           astring = config_setting_get_string_elem (sub2setting, i);
+                   ^
+/home/openair/openair-cn/SGW-LITE/spgw_config.c:233:43: warning: unused variable ‘sgw_drop_downlink_s1u_traffic’ [-Wunused-variable]
+   char                                   *sgw_drop_downlink_s1u_traffic = NULL;
+                                           ^
+/home/openair/openair-cn/SGW-LITE/spgw_config.c:232:43: warning: unused variable ‘sgw_drop_uplink_s1u_traffic’ [-Wunused-variable]
+   char                                   *sgw_drop_uplink_s1u_traffic = NULL;
+                                           ^
+[ 10%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Target-ToSource-TransparentContainer.c.o
+[ 10%] Building C object CMakeFiles/S1AP_EPC.dir/home/openair/openair-cn/S1AP/s1ap_mme_itti_messaging.c.o
+[ 10%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CriticalityDiagnostics.c.o
+[ 10%] Building C object CMakeFiles/S6A.dir/home/openair/openair-cn/S6A/s6a_dict.c.o
+[ 10%] Building C object CMakeFiles/SGW.dir/home/openair/openair-cn/SGW-LITE/s11_causes.c.o
+Linking C static library libGTPV2C.a
+[ 10%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HFN.c.o
+[ 10%] Built target GTPV2C
+[ 10%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Routing-ID.c.o
+[ 10%] Building C object CMakeFiles/SGW.dir/home/openair/openair-cn/SGW-LITE/sgw_lite_task.c.o
+[ 10%] [ 11%] Building C object CMakeFiles/S1AP_EPC.dir/home/openair/openair-cn/S1AP/s1ap_mme_retransmission.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/asn_SET_OF.c.o
+[ 11%] Building C object CMakeFiles/S1AP_EPC.dir/home/openair/openair-cn/S1AP/s1ap_mme_ta.c.o
+[ 11%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABLevelQoSParameters.c.o
+/home/openair/openair-cn/SGW-LITE/sgw_lite_task.c: In function ‘sgw_lite_init’:
+/home/openair/openair-cn/SGW-LITE/sgw_lite_task.c:198:3: warning: passing argument 3 of ‘hashtable_create’ from incompatible pointer type [enabled by default]
+   sgw_app.s11_bearer_context_information_hashtable = hashtable_create (8192, NULL, sgw_lite_cm_free_s_plus_p_gw_eps_bearer_context_information, "sgw_s11_bearer_context_information_hashtable");
+   ^
+In file included from /home/openair/openair-cn/NAS/EMM/emmData.h:54:0,
+                 from /home/openair/openair-cn/NAS/API/NETWORK/nas_message.h:46,
+                 from /home/openair/openair-cn/COMMON/nas_messages_types.h:30,
+                 from /home/openair/openair-cn/COMMON/messages_types.h:42,
+                 from /home/openair/openair-cn/COMMON/ITTI/intertask_interface_types.h:63,
+                 from /home/openair/openair-cn/COMMON/ITTI/intertask_interface.h:50,
+                 from /home/openair/openair-cn/SGW-LITE/sgw_lite_task.c:37:
+/home/openair/openair-cn/UTILS/HASHTABLE/hashtable.h:77:17: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(struct s_plus_p_gw_eps_bearer_context_information_t *)’
+ hash_table_t   *hashtable_create (const hash_size_t   size, hash_size_t (*hashfunc)(const hash_key_t ), void (*freefunc)(void*), char *name_pP);
+                 ^
+[ 11%] Building C object CMakeFiles/S6A.dir/home/openair/openair-cn/S6A/s6a_error.c.o
+[ 11%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAI-Broadcast-Item.c.o
+[ 11%] Building C object CMakeFiles/SGW.dir/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c.o
+[ 12%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEStatusTransfer.c.o
+[ 12%] Building C object CMakeFiles/S6A.dir/home/openair/openair-cn/S6A/s6a_peer.c.o
+[ 13%] Building C object CMakeFiles/S6A.dir/home/openair/openair-cn/S6A/s6a_subscription_data.c.o
+Linking C static library libS1AP_EPC.a
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000PDU.c.o
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c: In function ‘sgw_lite_handle_gtpv1uCreateTunnelResp’:
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c:343:43: warning: variable ‘address_allocation_via_dhcpv4’ set but not used [-Wunused-but-set-variable]
+   uint8_t                                 address_allocation_via_dhcpv4 = FALSE;
+                                           ^
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c:341:43: warning: unused variable ‘out_pco’ [-Wunused-variable]
+   pco_flat_t                              out_pco;
+                                           ^
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c:327:43: warning: unused variable ‘length_out_pi_or_ci’ [-Wunused-variable]
+   uint8_t                                 length_out_pi_or_ci = 0;
+                                           ^
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c:315:43: warning: unused variable ‘sgi_create_endpoint_req_p’ [-Wunused-variable]
+   SGICreateEndpointReq                   *sgi_create_endpoint_req_p = NULL;
+                                           ^
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c: In function ‘sgw_lite_handle_sgi_endpoint_updated’:
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c:755:2: warning: #warning "TODO define constant for default eps_bearer id" [-Wcpp]
+ #warning "TODO define constant for default eps_bearer id"
+  ^
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c:709:43: warning: unused variable ‘iptable_uplink_remove_gtpu’ [-Wunused-variable]
+   static uint8_t                          iptable_uplink_remove_gtpu = FALSE;
+                                           ^
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c: In function ‘sgw_lite_handle_modify_bearer_request’:
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c:898:43: warning: unused variable ‘gtpv1u_update_tunnel_req_p’ [-Wunused-variable]
+   Gtpv1uUpdateTunnelReq                  *gtpv1u_update_tunnel_req_p = NULL;
+                                           ^
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c: In function ‘sgw_lite_handle_release_access_bearers_request’:
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c:1110:2: warning: #warning "TODO Here the release (sgw_lite_handle_release_access_bearers_request)" [-Wcpp]
+ #warning "TODO Here the release (sgw_lite_handle_release_access_bearers_request)"
+  ^
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c: In function ‘sgw_lite_handle_create_session_request’:
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c:206:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c: In function ‘sgw_lite_handle_gtpv1uCreateTunnelResp’:
+/home/openair/openair-cn/SGW-LITE/sgw_lite_handlers.c:614:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+[ 13%] Built target S1AP_EPC
+Scanning dependencies of target MME_APP
+[ 13%] [ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000OneXMEID.c.o
+Building C object CMakeFiles/MME_APP.dir/home/openair/openair-cn/MME_APP/mme_app_capabilities.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MDT-Configuration.c.o
+[ 13%] Building C object CMakeFiles/S6A.dir/home/openair/openair-cn/S6A/s6a_task.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ReportingTriggerMDT.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/INTEGER.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MME-Code.c.o
+[ 13%] [ 13%] Building C object CMakeFiles/S6A.dir/home/openair/openair-cn/S6A/s6a_up_loc.c.o
+Building C object CMakeFiles/MME_APP.dir/home/openair/openair-cn/MME_APP/mme_app_context.c.o
+[ 14%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Inter-SystemInformationTransferType.c.o
+[ 14%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAI-Broadcast.c.o
+[ 14%] Building C object CMakeFiles/SGW.dir/home/openair/openair-cn/SGW-LITE/sgw_lite_context_manager.c.o
+[ 14%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAListforMDT.c.o
+[ 14%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TraceFailureIndication.c.o
+[ 14%] /home/openair/openair-cn/MME_APP/mme_app_context.c: In function ‘mme_ue_context_exists_imsi’:
+/home/openair/openair-cn/MME_APP/mme_app_context.c:72:68: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     return mme_ue_context_exists_mme_ue_s1ap_id (mme_ue_context_p, (uint32_t) id);
+                                                                    ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c: In function ‘mme_ue_context_exists_s11_teid’:
+/home/openair/openair-cn/MME_APP/mme_app_context.c:91:68: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     return mme_ue_context_exists_mme_ue_s1ap_id (mme_ue_context_p, (uint32_t) id);
+                                                                    ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c: In function ‘mme_ue_context_exists_nas_ue_id’:
+/home/openair/openair-cn/MME_APP/mme_app_context.c:125:68: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     return mme_ue_context_exists_mme_ue_s1ap_id (mme_ue_context_p, (uint32_t) id);
+                                                                    ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c: In function ‘mme_ue_context_exists_guti’:
+/home/openair/openair-cn/MME_APP/mme_app_context.c:145:5: warning: passing argument 2 of ‘mme_ue_context_exists_mme_ue_s1ap_id’ makes integer from pointer without a cast [enabled by default]
+     return mme_ue_context_exists_mme_ue_s1ap_id (mme_ue_context_p, id);
+     ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c:100:1: note: expected ‘uint32_t’ but argument is of type ‘void *’
+ mme_ue_context_exists_mme_ue_s1ap_id (
+ ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c: In function ‘mme_ue_context_update_coll_keys’:
+/home/openair/openair-cn/MME_APP/mme_app_context.c:172:96: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       h_rc = hashtable_insert (mme_ue_context_p->imsi_ue_context_htbl, (const hash_key_t)imsi, (void *)mme_ue_s1ap_id);
+                                                                                                ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c:184:105: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       h_rc = hashtable_insert (mme_ue_context_p->tun11_ue_context_htbl, (const hash_key_t)mme_s11_teid, (void *)mme_ue_s1ap_id);
+                                                                                                         ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c:196:106: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       h_rc = hashtable_insert (mme_ue_context_p->nas_ue_id_ue_context_htbl, (const hash_key_t)nas_ue_id, (void *)mme_ue_s1ap_id);
+                                                                                                          ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c:213:116: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       h_rc = obj_hashtable_insert (mme_ue_context_p->guti_ue_context_htbl, (const void *)guti_p, sizeof (*guti_p), (void *)mme_ue_s1ap_id);
+                                                                                                                    ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c: In function ‘mme_insert_ue_context’:
+/home/openair/openair-cn/MME_APP/mme_app_context.c:258:3: warning: passing argument 3 of ‘hashtable_insert’ discards ‘const’ qualifier from pointer target type [enabled by default]
+   h_rc = hashtable_insert (mme_ue_context_p->mme_ue_s1ap_id_ue_context_htbl, (const hash_key_t)ue_context_p->mme_ue_s1ap_id, ue_context_p);
+   ^
+In file included from /home/openair/openair-cn/NAS/EMM/emmData.h:54:0,
+                 from /home/openair/openair-cn/NAS/API/NETWORK/nas_message.h:46,
+                 from /home/openair/openair-cn/COMMON/nas_messages_types.h:30,
+                 from /home/openair/openair-cn/COMMON/messages_types.h:42,
+                 from /home/openair/openair-cn/COMMON/ITTI/intertask_interface_types.h:63,
+                 from /home/openair/openair-cn/COMMON/ITTI/intertask_interface.h:50,
+                 from /home/openair/openair-cn/MME_APP/mme_app_context.c:33:
+/home/openair/openair-cn/UTILS/HASHTABLE/hashtable.h:82:17: note: expected ‘void *’ but argument is of type ‘const struct ue_context_s * const’
+ hashtable_rc_t  hashtable_insert (hash_table_t * const hashtbl, const hash_key_t key, void *data);
+                 ^
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ReportAmountMDT.c.o
+/home/openair/openair-cn/MME_APP/mme_app_context.c:273:108: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     h_rc = hashtable_insert (mme_ue_context_p->imsi_ue_context_htbl, (const hash_key_t)ue_context_p->imsi, (void *)ue_context_p->mme_ue_s1ap_id);
+                                                                                                            ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c:282:114: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     h_rc = hashtable_insert (mme_ue_context_p->nas_ue_id_ue_context_htbl, (const hash_key_t)ue_context_p->ue_id, (void *)ue_context_p->mme_ue_s1ap_id);
+                                                                                                                  ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c:291:117: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     h_rc = hashtable_insert (mme_ue_context_p->tun11_ue_context_htbl, (const hash_key_t)ue_context_p->mme_s11_teid, (void *)ue_context_p->mme_ue_s1ap_id);
+                                                                                                                     ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c:306:145: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       h_rc = obj_hashtable_insert (mme_ue_context_p->guti_ue_context_htbl, (const void *const)&ue_context_p->guti, sizeof (ue_context_p->guti), (void *)ue_context_p->mme_ue_s1ap_id);
+                                                                                                                                                 ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c: In function ‘mme_remove_ue_context’:
+/home/openair/openair-cn/MME_APP/mme_app_context.c:360:2: warning: #warning "TODO mme_ue_context_free_content" [-Wcpp]
+ #warning "TODO mme_ue_context_free_content"
+  ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c: In function ‘mme_app_dump_ue_contexts’:
+/home/openair/openair-cn/MME_APP/mme_app_context.c:513:3: warning: passing argument 2 of ‘hashtable_apply_funct_on_elements’ from incompatible pointer type [enabled by default]
+   hashtable_apply_funct_on_elements (mme_ue_context_p->mme_ue_s1ap_id_ue_context_htbl, mme_app_dump_ue_context, NULL);
+   ^
+In file included from /home/openair/openair-cn/NAS/EMM/emmData.h:54:0,
+                 from /home/openair/openair-cn/NAS/API/NETWORK/nas_message.h:46,
+                 from /home/openair/openair-cn/COMMON/nas_messages_types.h:30,
+                 from /home/openair/openair-cn/COMMON/messages_types.h:42,
+                 from /home/openair/openair-cn/COMMON/ITTI/intertask_interface_types.h:63,
+                 from /home/openair/openair-cn/COMMON/ITTI/intertask_interface.h:50,
+                 from /home/openair/openair-cn/MME_APP/mme_app_context.c:33:
+/home/openair/openair-cn/UTILS/HASHTABLE/hashtable.h:80:17: note: expected ‘void (*)(hash_key_t,  void *, void *)’ but argument is of type ‘void (*)(const hash_key_t,  const void * const,  void *)’
+ hashtable_rc_t  hashtable_apply_funct_on_elements (hash_table_t * const hashtblP, void funct(hash_key_t keyP, void* dataP, void* parameterP), void* parameterP);
+                 ^
+/home/openair/openair-cn/MME_APP/mme_app_context.c: In function ‘mme_app_handle_s1ap_ue_context_release_req’:
+/home/openair/openair-cn/MME_APP/mme_app_context.c:544:5: warning: implicit declaration of function ‘mme_app_send_s11_release_access_bearers_req’ [-Wimplicit-function-declaration]
+     mme_app_send_s11_release_access_bearers_req (ue_context_p);
+     ^
+[ 14%] Building C object CMakeFiles/SGW.dir/home/openair/openair-cn/SGW-LITE/pgw_lite_paa.c.o
+[ 14%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MME-Group-ID.c.o
+/home/openair/openair-cn/SGW-LITE/sgw_lite_context_manager.c: In function ‘sgw_lite_cm_create_bearer_context_information_in_collection’:
+/home/openair/openair-cn/SGW-LITE/sgw_lite_context_manager.c:338:3: warning: passing argument 4 of ‘obj_hashtable_create’ from incompatible pointer type [enabled by default]
+   new_bearer_context_information->pgw_eps_bearer_context_information.apns = obj_hashtable_create (32, NULL, NULL, pgw_lite_cm_free_apn, "pgw_eps_bearer_ctxt_info_apns");
+   ^
+In file included from /home/openair/openair-cn/MME_APP/mme_app_ue_context.h:44:0,
+                 from /home/openair/openair-cn/SGW-LITE/sgw_lite_context_manager.h:33,
+                 from /home/openair/openair-cn/SGW-LITE/sgw_lite_context_manager.c:42:
+/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.h:56:21: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(struct pgw_apn_t *)’
+ obj_hash_table_t   *obj_hashtable_create  (const hash_size_t   size, hash_size_t (*hashfunc)(const void*, int ), void (*freekeyfunc)(void*), void (*freedatafunc)(void*), char *display_name_pP);
+                     ^
+[ 14%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PLMNidentity.c.o
+Linking C static library libS6A.a
+[ 14%] Built target S6A
+[ 15%] Building C object CMakeFiles/MME_APP.dir/home/openair/openair-cn/MME_APP/mme_app_main.c.o
+[ 15%] Building C object CMakeFiles/MME_APP.dir/home/openair/openair-cn/MME_APP/mme_app_bearer.c.o
+[ 15%] Building C object CMakeFiles/MME_APP.dir/home/openair/openair-cn/MME_APP/mme_app_authentication.c.o
+Linking C static library libSGW.a
+[ 15%] Building C object CMakeFiles/MME_APP.dir/home/openair/openair-cn/MME_APP/mme_app_location.c.o
+[ 15%] Built target SGW
+[ 15%] /home/openair/openair-cn/MME_APP/mme_app_main.c: In function ‘mme_app_thread’:
+/home/openair/openair-cn/MME_APP/mme_app_main.c:93:9: warning: implicit declaration of function ‘mme_app_handle_release_access_bearers_resp’ [-Wimplicit-function-declaration]
+         mme_app_handle_release_access_bearers_resp (&received_message_p->ittiMsg.sgwReleaseAccessBearersResponse);
+         ^
+/home/openair/openair-cn/MME_APP/mme_app_main.c:170:9: warning: implicit declaration of function ‘mme_app_handle_s1ap_ue_context_release_complete’ [-Wimplicit-function-declaration]
+         mme_app_handle_s1ap_ue_context_release_complete (&received_message_p->ittiMsg.s1ap_ue_context_release_complete);
+         ^
+Building C object CMakeFiles/MME_APP.dir/home/openair/openair-cn/MME_APP/mme_app_statistics.c.o
+/home/openair/openair-cn/MME_APP/mme_app_bearer.c: In function ‘mme_app_send_s11_release_access_bearers_req’:
+/home/openair/openair-cn/MME_APP/mme_app_bearer.c:60:43: warning: unused variable ‘context_identifier’ [-Wunused-variable]
+   context_identifier_t                    context_identifier;
+                                           ^
+/home/openair/openair-cn/MME_APP/mme_app_bearer.c:54:43: warning: unused variable ‘i’ [-Wunused-variable]
+   uint8_t                                 i = 0;
+                                           ^
+[ 15%] /home/openair/openair-cn/MME_APP/mme_app_bearer.c: In function ‘mme_app_send_s11_create_session_req’:
+/home/openair/openair-cn/MME_APP/mme_app_bearer.c:189:49: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   session_request_p->sender_fteid_for_cp.teid = (uint32_t) ue_context_pP;
+                                                 ^
+/home/openair/openair-cn/MME_APP/mme_app_bearer.c: In function ‘mme_app_handle_conn_est_cnf’:
+/home/openair/openair-cn/MME_APP/mme_app_bearer.c:358:2: warning: #warning "Check ue_context_p ambr" [-Wcpp]
+ #warning "Check ue_context_p ambr"
+  ^
+/home/openair/openair-cn/MME_APP/mme_app_bearer.c: In function ‘mme_app_handle_create_sess_resp’:
+/home/openair/openair-cn/MME_APP/mme_app_bearer.c:535:2: warning: #warning "may force QCI here to 9" [-Wcpp]
+ #warning "may force QCI here to 9"
+  ^
+Building C object CMakeFiles/MME_APP.dir/home/openair/openair-cn/MME_APP/s6a_2_nas_cause.c.o
+/home/openair/openair-cn/MME_APP/mme_app_bearer.c:627:2: warning: #warning "QOS hardcoded here" [-Wcpp]
+ #warning "QOS hardcoded here"
+  ^
+/home/openair/openair-cn/MME_APP/mme_app_bearer.c: In function ‘mme_app_send_s11_release_access_bearers_req’:
+/home/openair/openair-cn/MME_APP/mme_app_bearer.c:80:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+[ 16%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CSG-Id.c.o
+[ 16%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABInformationListItem.c.o
+Scanning dependencies of target LIB_NAS_MME
+[ 16%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LocationReport.c.o
+[ 16%] [ 16%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverRequest.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBConfigurationTransfer.c.o
+[ 16%] [ 16%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/nas_itti_messaging.c.o
+[ 16%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TimeToWait.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SONInformationRequest.c.o
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LAC.c.o
+[ 17%] [ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CauseMisc.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ResetType.c.o
+Linking C static library libMME_APP.a
+[ 17%] [ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenTAs.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABFailedToSetupListHOReqAck.c.o
+[ 17%] [ 17%] Built target MME_APP
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InitialContextSetupResponse.c.o
+[ 17%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/nas_network.c.o
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000HORequiredIndication.c.o
+[ 17%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/nas_proc.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextReleaseComplete.c.o
+[ 19%] [ 19%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/API/NETWORK/as_message.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c.o
+/home/openair/openair-cn/NAS/nas_network.c: In function ‘nas_network_process_data’:
+/home/openair/openair-cn/NAS/nas_network.c:161:7: warning: passing argument 2 of ‘nas_proc_establish_ind’ discards ‘const’ qualifier from pointer target type [enabled by default]
+       rc = nas_proc_establish_ind (indication->UEid, indication->plmn, indication->tac, indication->initialNasMsg.data, indication->initialNasMsg.length);
+       ^
+In file included from /home/openair/openair-cn/NAS/nas_network.c:45:0:
+/home/openair/openair-cn/NAS/nas_proc.h:89:5: note: expected ‘uint8_t *’ but argument is of type ‘const uint8_t *’
+ int nas_proc_establish_ind(uint32_t ueid, uint8_t plmn[3], tac_t tac, const Byte_t *data,
+     ^
+[ 19%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/API/NETWORK/network_api.c.o
+[ 19%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/API/MME/mme_api.c.o
+[ 19%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RRC-Establishment-Cause.c.o
+[ 19%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/AttachAccept.c.o
+[ 19%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/AttachComplete.c.o
+/home/openair/openair-cn/NAS/EMM/MSG/AttachAccept.c: In function ‘encode_attach_accept’:
+/home/openair/openair-cn/NAS/EMM/MSG/AttachAccept.c:216:2: warning: #warning "LG TEST override t3412value" [-Wcpp]
+ #warning "LG TEST override t3412value"
+  ^
+/home/openair/openair-cn/NAS/EMM/MSG/AttachAccept.c:276:2: warning: #warning "LG TEST override t3402value" [-Wcpp]
+ #warning "LG TEST override t3402value"
+  ^
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c: In function ‘_nas_message_decrypt’:
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:978:31: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+         stream_cipher.message = src;
+                               ^
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:983:9: warning: pointer targets in passing argument 2 of ‘nas_stream_encrypt_eea1’ differ in signedness [-Wpointer-sign]
+         nas_stream_encrypt_eea1 (&stream_cipher, dest);
+         ^
+In file included from /home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:53:0:
+/home/openair/openair-cn/SECU/secu_defs.h:82:5: note: expected ‘uint8_t *’ but argument is of type ‘char *’
+ int nas_stream_encrypt_eea1(nas_stream_cipher_t *stream_cipher, uint8_t *out);
+     ^
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:1008:31: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+         stream_cipher.message = src;
+                               ^
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:1013:9: warning: pointer targets in passing argument 2 of ‘nas_stream_encrypt_eea1’ differ in signedness [-Wpointer-sign]
+         nas_stream_encrypt_eea1 (&stream_cipher, dest);
+         ^
+In file included from /home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:53:0:
+/home/openair/openair-cn/SECU/secu_defs.h:82:5: note: expected ‘uint8_t *’ but argument is of type ‘char *’
+ int nas_stream_encrypt_eea1(nas_stream_cipher_t *stream_cipher, uint8_t *out);
+     ^
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c: In function ‘_nas_message_encrypt’:
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:1124:31: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+         stream_cipher.message = src;
+                               ^
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:1129:9: warning: pointer targets in passing argument 2 of ‘nas_stream_encrypt_eea1’ differ in signedness [-Wpointer-sign]
+         nas_stream_encrypt_eea1 (&stream_cipher, dest);
+         ^
+In file included from /home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:53:0:
+/home/openair/openair-cn/SECU/secu_defs.h:82:5: note: expected ‘uint8_t *’ but argument is of type ‘char *’
+ int nas_stream_encrypt_eea1(nas_stream_cipher_t *stream_cipher, uint8_t *out);
+     ^
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:1149:31: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+         stream_cipher.message = src;
+                               ^
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:1154:9: warning: pointer targets in passing argument 2 of ‘nas_stream_encrypt_eea2’ differ in signedness [-Wpointer-sign]
+         nas_stream_encrypt_eea2 (&stream_cipher, dest);
+         ^
+In file included from /home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:53:0:
+/home/openair/openair-cn/SECU/secu_defs.h:86:5: note: expected ‘uint8_t *’ but argument is of type ‘char *’
+ int nas_stream_encrypt_eea2(nas_stream_cipher_t *stream_cipher, uint8_t *out);
+     ^
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c: In function ‘_nas_message_get_mac’:
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:1268:29: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+       stream_cipher.message = buffer;
+                             ^
+/home/openair/openair-cn/NAS/API/NETWORK/nas_message.c:1300:29: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+       stream_cipher.message = buffer;
+                             ^
+[ 19%] [ 19%] [ 19%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/AttachReject.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EPLMNs.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Threshold-RSRQ.c.o
+[ 19%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellID-Cancelled.c.o
+[ 20%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/AttachRequest.c.o
+[ 20%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CancelledCellinEAI.c.o
+[ 20%] [ 20%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InitialUEMessage.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/AuthenticationFailure.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellTrafficTrace.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DownlinkUEAssociatedLPPaTransport.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ErrorIndication.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/per_decoder.c.o
+[ 21%] [ 21%] [ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NASSecurityParametersfromE-UTRAN.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/AuthenticationReject.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBConfigurationUpdateAcknowledge.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/AuthenticationRequest.c.o
+[ 21%] [ 21%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/AuthenticationResponse.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UplinkNASTransport.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/CsServiceNotification.c.o
+[ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000HOStatus.c.o
+[ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/BIT_STRING.c.o
+[ 22%] [ 22%] [ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NumberofBroadcastRequest.c.o
+[ 23%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/DetachAccept.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/OCTET_STRING.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/DetachRequest.c.o
+[ 23%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/DownlinkNasTransport.c.o
+[ 23%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SupportedTAs.c.o
+[ 23%] [ 23%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/EmmInformation.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ManagementBasedMDTAllowed.c.o
+[ 23%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupItemCtxtSURes.c.o
+[ 24%] [ 24%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SONInformation.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ServedGroupIDs.c.o
+[ 24%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/emm_msg.c.o
+[ 24%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PagingDRX.c.o
+[ 24%] [ 24%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/EmmStatus.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Bearers-SubjectToStatusTransfer-List.c.o
+[ 24%] [ 24%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/ExtendedServiceRequest.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/GutiReallocationCommand.c.o
+[ 25%] [ 25%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/GutiReallocationComplete.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-associatedLogicalS1-ConnectionItem.c.o
+[ 25%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1AP-PDU.c.o
+[ 25%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TransportLayerAddress.c.o
+[ 25%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/IdentityRequest.c.o
+[ 26%] [ 26%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-OverloadResponse.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/IdentityResponse.c.o
+[ 26%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/SecurityModeCommand.c.o
+[ 26%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RRC-Container.c.o
+[ 26%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/SecurityModeComplete.c.o
+[ 26%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/SecurityModeReject.c.o
+[ 26%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LastVisitedCell-Item.c.o
+[ 26%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverCancel.c.o
+[ 26%] [ 27%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/ServiceReject.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/ServiceRequest.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/TrackingAreaUpdateAccept.c.o
+[ 27%] [ 27%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/TrackingAreaUpdateComplete.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TrafficLoadReductionIndication.c.o
+[ 27%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEname.c.o
+[ 27%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DownlinkS1cdma2000tunneling.c.o
+[ 28%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-BroadcastCompletedAreaList.c.o
+[ 28%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SupportedTAs-Item.c.o
+[ 28%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RelayNode-Indicator.c.o
+[ 28%] [ 28%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Presence.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/TrackingAreaUpdateReject.c.o
+[ 28%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GUMMEI.c.o
+[ 28%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABFailedToSetupItemHOReqAck.c.o
+[ 28%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/TrackingAreaUpdateRequest.c.o
+[ 28%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/MSG/UplinkNasTransport.c.o
+[ 29%] [ 29%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABReleaseIndication.c.o
+[ 29%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargetBSS-ToSourceBSS-TransparentContainer.c.o
+[ 29%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ReportArea.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/ActivateDedicatedEpsBearerContextAccept.c.o
+[ 30%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/ActivateDedicatedEpsBearerContextReject.c.o
+[ 30%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/ActivateDedicatedEpsBearerContextRequest.c.o
+[ 30%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMERelaySupportIndicator.c.o
+[ 30%] [ 30%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/ActivateDefaultEpsBearerContextAccept.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CSG-IdList-Item.c.o
+[ 30%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RIMRoutingAddress.c.o
+[ 30%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constr_SET_OF.c.o
+[ 30%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/ActivateDefaultEpsBearerContextReject.c.o
+[ 31%] [ 31%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RequestType.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENB-StatusTransfer-TransparentContainer.c.o
+[ 31%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABModifyRequest.c.o
+[ 31%] [ 31%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-S1SetupFailure.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/ActivateDefaultEpsBearerContextRequest.c.o
+/home/openair/openair-cn/BUILD/EPC/BUILD/CMakeFiles/R10.5/constr_SET_OF.c: In function ‘SET_OF_decode_aper’:
+/home/openair/openair-cn/BUILD/EPC/BUILD/CMakeFiles/R10.5/constr_SET_OF.c:1007:18: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     (int)nelems, (int)ct ? ct->effective_bits : -1);
+                  ^
+[ 31%] [ 31%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/BearerResourceAllocationReject.c.o
+[ 31%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABInformationList.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MSClassmark2.c.o
+[ 31%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/BearerResourceAllocationRequest.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/BearerResourceModificationReject.c.o
+[ 32%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenInterRATs.c.o
+[ 32%] [ 32%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/BearerResourceModificationRequest.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/DeactivateEpsBearerContextAccept.c.o
+[ 32%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RNC-ID.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/DeactivateEpsBearerContextRequest.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/EsmInformationRequest.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/EsmInformationResponse.c.o
+[ 33%] [ 33%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PathSwitchRequestAcknowledge.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAC.c.o
+[ 33%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/esm_msg.c.o
+[ 34%] [ 34%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/ModifyEpsBearerContextAccept.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/EsmStatus.c.o
+[ 34%] [ 34%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TypeOfError.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constr_SEQUENCE_OF.c.o
+[ 34%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/ModifyEpsBearerContextReject.c.o
+[ 34%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenTACs.c.o
+[ 34%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/ModifyEpsBearerContextRequest.c.o
+[ 34%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/PdnConnectivityReject.c.o
+[ 34%] [ 34%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/ber_decoder.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/xer_support.c.o
+[ 34%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/PdnConnectivityRequest.c.o
+[ 34%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/PdnDisconnectReject.c.o
+[ 35%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CSG-IdList.c.o
+[ 35%] [ 36%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/MSG/PdnDisconnectRequest.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellType.c.o
+[ 36%] [ 36%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/AccessPointName.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000OneXRAND.c.o
+[ 36%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SuccessfulOutcome.c.o
+[ 36%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TABasedMDT.c.o
+[ 36%] [ 36%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-OverloadStart.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-L3-Information.c.o
+[ 36%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/AdditionalUpdateResult.c.o
+[ 37%] [ 37%] [ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/asn_SEQUENCE_OF.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/ApnAggregateMaximumBitRate.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/AdditionalUpdateType.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ProtocolExtensionID.c.o
+[ 37%] [ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENB-ID.c.o
+[ 37%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/AuthenticationFailureParameter.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/AuthenticationParameterAutn.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NASNonDeliveryIndication.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MessageIdentifier.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Direct-Forwarding-Path-Availability.c.o
+[ 38%] [ 38%] [ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBX2GTPTLAs.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/AuthenticationParameterRand.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cell-Size.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/AuthenticationResponseParameter.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/CipheringKeySequenceNumber.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-S1SetupRequest.c.o
+[ 39%] [ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UplinkNonUEAssociatedLPPaTransport.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABList.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/Cli.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/CsfbResponse.c.o
+[ 39%] [ 39%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/DetachType.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/DaylightSavingTime.c.o
+[ 39%] [ 39%] [ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TraceActivation.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SourceRNC-ToTargetRNC-TransparentContainer.c.o
+[ 40%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ServedGUMMEIs.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/DrxParameter.c.o
+[ 40%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EmergencyNumberList.c.o
+[ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/ANY.c.o
+[ 41%] [ 41%] [ 41%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EmmCause.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000OneXMSI.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EpsAttachResult.c.o
+[ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ServedMMECs.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EpsAttachType.c.o
+[ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverFailure.c.o
+[ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenTAs-Item.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EpsBearerContextStatus.c.o
+[ 41%] [ 41%] [ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEConfigurationUpdateFailure.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EpsBearerIdentity.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DownlinkNASTransport.c.o
+[ 42%] [ 42%] [ 43%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverType.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-S1AP-ID-pair.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EpsMobileIdentity.c.o
+[ 43%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAIList.c.o
+[ 43%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EpsNetworkFeatureSupport.c.o
+[ 43%] [ 43%] [ 43%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABModifyResponse.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/converter-sample.c.o
+[ 43%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-AreaScopeOfMDT.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constr_SEQUENCE.c.o
+[ 44%] [ 44%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EventType.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SONConfigurationTransfer.c.o
+[ 44%] [ 44%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABReleaseCommand.c.o
+[ 44%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EpsQualityOfService.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ProtocolIE-ID.c.o
+[ 44%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EpsUpdateResult.c.o
+[ 44%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CriticalityDiagnostics-IE-List.c.o
+[ 44%] [ 44%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEConfigurationUpdateAcknowledge.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EncryptionAlgorithms.c.o
+[ 45%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ResetAll.c.o
+[ 45%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EpsUpdateType.c.o
+[ 45%] [ 45%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EsmCause.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellID-Broadcast.c.o
+[ 45%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EsmInformationTransferFlag.c.o
+[ 45%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ReportIntervalMDT.c.o
+[ 46%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/EsmMessageContainer.c.o
+[ 46%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/GprsTimer.c.o
+[ 46%] [ 46%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellID-Broadcast-Item.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/GutiType.c.o
+[ 46%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeModifiedItemBearerModReq.c.o
+[ 46%] [ 46%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/IdentityType2.c.o
+[ 46%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverRequired.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/ImeisvRequest.c.o
+[ 46%] [ 46%] [ 47%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/KsiAndSequenceNumber.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/LcsClientIdentity.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/LcsIndicator.c.o
+[ 47%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ReceiveStatusofULPDCPSDUs.c.o
+[ 47%] [ 47%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/LlcServiceAccessPointIdentifier.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/LinkedEpsBearerIdentity.c.o
+[ 47%] [ 48%] [ 48%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-BitRate.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/MessageType.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/LocationAreaIdentification.c.o
+[ 48%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-associatedLogicalS1-ConnectionListResAck.c.o
+[ 48%] [ 48%] [ 48%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/MobileIdentity.c.o
+[ 48%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/MobileStationClassmark2.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/xer_encoder.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Reset.c.o
+[ 49%] [ 49%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/MobileStationClassmark3.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/MsNetworkCapability.c.o
+[ 49%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenLAs.c.o
+[ 49%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GERAN-Cell-ID.c.o
+[ 49%] [ 49%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/MsNetworkFeatureSupport.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-S1SetupResponse.c.o
+[ 49%] [ 49%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/NasKeySetIdentifier.c.o
+[ 49%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/NasMessageContainer.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/NasRequestType.c.o
+/home/openair/openair-cn/NAS/IES/MsNetworkFeatureSupport.c: In function ‘encode_ms_network_feature_support’:
+/home/openair/openair-cn/NAS/IES/MsNetworkFeatureSupport.c:51:7: warning: unused variable ‘encode_result’ [-Wunused-variable]
+   int encode_result;
+       ^
+/home/openair/openair-cn/NAS/IES/MsNetworkFeatureSupport.c:49:12: warning: unused variable ‘lenPtr’ [-Wunused-variable]
+   uint8_t *lenPtr;
+            ^
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UESecurityCapabilities.c.o
+[ 50%] [ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaID-Cancelled.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ECGIList.c.o
+[ 50%] [ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaID.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constr_TYPE.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/NasSecurityAlgorithms.c.o
+[ 51%] [ 51%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/NetworkName.c.o
+[ 51%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/Nonce.c.o
+[ 51%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/PacketFlowIdentifier.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargeteNB-ToSourceeNB-TransparentContainer.c.o
+[ 51%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Pre-emptionVulnerability.c.o
+[ 51%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/PagingIdentity.c.o
+[ 51%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/PdnAddress.c.o
+[ 51%] [ 52%] [ 52%] [ 52%] [ 53%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Source-ToTarget-TransparentContainer.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-IE-Extensions.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/PdnType.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/PlmnList.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/ProcedureTransactionIdentity.c.o
+[ 53%] [ 53%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LAI.c.o
+[ 53%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/ProtocolConfigurationOptions.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/ProtocolDiscriminator.c.o
+[ 53%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBConfigurationUpdate.c.o
+[ 53%] [ 53%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RAC.c.o
+[ 53%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/PTmsiSignature.c.o
+[ 53%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/QualityOfService.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/RadioPriority.c.o
+[ 53%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargeteNB-ID.c.o
+[ 53%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SONInformationReply.c.o
+[ 53%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/SecurityHeaderType.c.o
+[ 54%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/ServiceType.c.o
+[ 54%] [ 54%] [ 55%] [ 55%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/SsCode.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/ShortMac.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-IntegrityProtectionAlgorithms.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WriteReplaceWarningResponse.c.o
+[ 55%] [ 55%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SourceeNB-ToTargeteNB-TransparentContainer.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/SupportedCodecList.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/TimeZoneAndTime.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/TimeZone.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/TmsiStatus.c.o
+[ 56%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/TrackingAreaIdentity.c.o
+[ 56%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LastVisitedGERANCellInformation.c.o
+[ 56%] [ 56%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TraceDepth.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/TrackingAreaIdentityList.c.o
+[ 56%] [ 56%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/TrafficFlowAggregateDescription.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/TrafficFlowTemplate.c.o
+[ 56%] [ 56%] [ 56%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/TransactionIdentifier.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-M-TMSI.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABDataForwardingItem.c.o
+[ 56%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/UeNetworkCapability.c.o
+[ 57%] [ 57%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEConfigurationTransfer.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/UeRadioCapabilityInformationUpdateNeeded.c.o
+[ 57%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LocationReportingControl.c.o
+/home/openair/openair-cn/NAS/IES/UeNetworkCapability.c: In function ‘decode_ue_network_capability’:
+/home/openair/openair-cn/NAS/IES/UeNetworkCapability.c:81:2: warning: #warning "Force GPRS present if UMTS present" [-Wcpp]
+ #warning "Force GPRS present if UMTS present"
+  ^
+/home/openair/openair-cn/NAS/IES/UeNetworkCapability.c: In function ‘encode_ue_network_capability’:
+/home/openair/openair-cn/NAS/IES/UeNetworkCapability.c:138:2: warning: #warning "Force gea to 0x60" [-Wcpp]
+ #warning "Force gea to 0x60"
+  ^
+[ 58%] [ 58%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/UeSecurityCapability.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InitialContextSetupFailure.c.o
+[ 58%] [ 58%] [ 58%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LoggedMDT.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-OverloadAction.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Threshold-RSRP.c.o
+[ 58%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/IES/VoiceDomainPreferenceAndUeUsageSetting.c.o
+[ 58%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/UTIL/device.c.o
+[ 58%] [ 58%] [ 58%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/UTIL/memory.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RIMTransfer.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/UTIL/nas_log.c.o
+[ 58%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/UTIL/nas_timer.c.o
+[ 58%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/UTIL/socket.c.o
+[ 59%] [ 60%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/UTIL/stty.c.o
+[ 60%] [ 60%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CI.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PrivateIE-ID.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TriggeringMessage.c.o
+[ 60%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/UTIL/TLVEncoder.c.o
+[ 60%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/UTIL/TLVDecoder.c.o
+[ 60%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Paging.c.o
+[ 60%] [ 60%] [ 60%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/UTIL/OctetString.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/Attach.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/Authentication.c.o
+[ 60%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/Detach.c.o
+[ 61%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/EmmCommon.c.o
+[ 61%] [ 61%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SourceBSS-ToTargetBSS-TransparentContainer.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LocationReportingFailureIndication.c.o
+[ 61%] [ 61%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/emm_data_ctx.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/emm_main.c.o
+/home/openair/openair-cn/NAS/EMM/emm_main.c: In function ‘emm_main_initialize’:
+/home/openair/openair-cn/NAS/EMM/emm_main.c:102:3: warning: implicit declaration of function ‘obj_hashtable_create’ [-Wimplicit-function-declaration]
+   _emm_data.ctx_coll_guti = obj_hashtable_create (MAX_NUMBER_OF_UE * 2, NULL, NULL, NULL, "emm_data.ctx_coll_guti");
+   ^
+/home/openair/openair-cn/NAS/EMM/emm_main.c:102:27: warning: assignment makes pointer from integer without a cast [enabled by default]
+   _emm_data.ctx_coll_guti = obj_hashtable_create (MAX_NUMBER_OF_UE * 2, NULL, NULL, NULL, "emm_data.ctx_coll_guti");
+                           ^
+[ 62%] [ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEDirectInformationTransfer.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LoggingInterval.c.o
+/home/openair/openair-cn/NAS/EMM/Attach.c: In function ‘emm_proc_attach_request’:
+/home/openair/openair-cn/NAS/EMM/Attach.c:400:2: warning: #warning "TRICK TO SET TAC, BUT LOOK AT SPEC" [-Wcpp]
+ #warning "TRICK TO SET TAC, BUT LOOK AT SPEC"
+  ^
+/home/openair/openair-cn/NAS/EMM/Attach.c:287:43: warning: unused variable ‘emm_ue_id’ [-Wunused-variable]
+   void                                   *emm_ue_id = NULL;
+                                           ^
+/home/openair/openair-cn/NAS/EMM/Attach.c: In function ‘_emm_attach_t3450_handler’:
+/home/openair/openair-cn/NAS/EMM/Attach.c:649:43: warning: variable ‘rc’ set but not used [-Wunused-but-set-variable]
+   int                                     rc;
+                                           ^
+/home/openair/openair-cn/NAS/EMM/Attach.c: In function ‘_emm_attach_identify’:
+/home/openair/openair-cn/NAS/EMM/Attach.c:1038:2: warning: #warning "LG Temp. Force identification here" [-Wcpp]
+ #warning "LG Temp. Force identification here"
+  ^
+/home/openair/openair-cn/NAS/EMM/Attach.c: In function ‘_emm_attach_accept’:
+/home/openair/openair-cn/NAS/EMM/Attach.c:1485:2: warning: #warning "TEST LG FORCE GUTI IE IN ATTACH ACCEPT" [-Wcpp]
+ #warning "TEST LG FORCE GUTI IE IN ATTACH ACCEPT"
+  ^
+[ 62%] /home/openair/openair-cn/NAS/EMM/Attach.c: In function ‘_emm_attach_update’:
+/home/openair/openair-cn/NAS/EMM/Attach.c:1844:94: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       obj_hashtable_insert (_emm_data.ctx_coll_guti, (const hash_key_t)guti, sizeof (*guti), (void *)ctx->ueid);
+                                                                                              ^
+/home/openair/openair-cn/NAS/EMM/Attach.c:1844:7: warning: passing argument 1 of ‘obj_hashtable_insert’ from incompatible pointer type [enabled by default]
+       obj_hashtable_insert (_emm_data.ctx_coll_guti, (const hash_key_t)guti, sizeof (*guti), (void *)ctx->ueid);
+       ^
+In file included from /home/openair/openair-cn/NAS/EMM/Attach.c:74:0:
+/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.h:59:21: note: expected ‘struct obj_hash_table_t * const’ but argument is of type ‘struct hash_table_t *’
+ hashtable_rc_t      obj_hashtable_insert  (obj_hash_table_t * const hashtblP,       const void* const keyP, const int key_sizeP, void *dataP);
+                     ^
+/home/openair/openair-cn/NAS/EMM/Attach.c:1844:7: warning: passing argument 2 of ‘obj_hashtable_insert’ makes pointer from integer without a cast [enabled by default]
+       obj_hashtable_insert (_emm_data.ctx_coll_guti, (const hash_key_t)guti, sizeof (*guti), (void *)ctx->ueid);
+       ^
+In file included from /home/openair/openair-cn/NAS/EMM/Attach.c:74:0:
+/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.h:59:21: note: expected ‘const void * const’ but argument is of type ‘long unsigned int’
+ hashtable_rc_t      obj_hashtable_insert  (obj_hash_table_t * const hashtblP,       const void* const keyP, const int key_sizeP, void *dataP);
+                     ^
+/home/openair/openair-cn/NAS/EMM/Attach.c:1865:7: warning: passing argument 1 of ‘obj_hashtable_remove’ from incompatible pointer type [enabled by default]
+       obj_hashtable_remove (_emm_data.ctx_coll_guti, (const void *)(ctx->guti), sizeof (*ctx->guti), (void **)&emm_ue_id);
+       ^
+[ 62%] In file included from /home/openair/openair-cn/NAS/EMM/Attach.c:74:0:
+/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.h:62:21: note: expected ‘struct obj_hash_table_t *’ but argument is of type ‘struct hash_table_t *’
+ hashtable_rc_t      obj_hashtable_remove(obj_hash_table_t *hashtblP, const void* keyP, const int key_sizeP, void** dataP);
+                     ^
+/home/openair/openair-cn/NAS/EMM/Attach.c:1868:2: warning: #warning "LG: We should assign the GUTI accordingly to the visited plmn id" [-Wcpp]
+ #warning "LG: We should assign the GUTI accordingly to the visited plmn id"
+  ^
+/home/openair/openair-cn/NAS/EMM/Attach.c:1874:27: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+       ctx->guti->m_tmsi = (uint32_t) ctx;
+                           ^
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SRVCCHOIndication.c.o
+/home/openair/openair-cn/NAS/EMM/Attach.c:1901:108: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+         obj_hashtable_insert (_emm_data.ctx_coll_guti, (const hash_key_t)(ctx->guti), sizeof (*ctx->guti), (void *)ctx->ueid);
+                                                                                                            ^
+/home/openair/openair-cn/NAS/EMM/Attach.c:1901:9: warning: passing argument 1 of ‘obj_hashtable_insert’ from incompatible pointer type [enabled by default]
+         obj_hashtable_insert (_emm_data.ctx_coll_guti, (const hash_key_t)(ctx->guti), sizeof (*ctx->guti), (void *)ctx->ueid);
+         ^
+In file included from /home/openair/openair-cn/NAS/EMM/Attach.c:74:0:
+/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.h:59:21: note: expected ‘struct obj_hash_table_t * const’ but argument is of type ‘struct hash_table_t *’
+ hashtable_rc_t      obj_hashtable_insert  (obj_hash_table_t * const hashtblP,       const void* const keyP, const int key_sizeP, void *dataP);
+                     ^
+/home/openair/openair-cn/NAS/EMM/Attach.c:1901:9: warning: passing argument 2 of ‘obj_hashtable_insert’ makes pointer from integer without a cast [enabled by default]
+         obj_hashtable_insert (_emm_data.ctx_coll_guti, (const hash_key_t)(ctx->guti), sizeof (*ctx->guti), (void *)ctx->ueid);
+         ^
+In file included from /home/openair/openair-cn/NAS/EMM/Attach.c:74:0:
+/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.h:59:21: note: expected ‘const void * const’ but argument is of type ‘long unsigned int’
+ hashtable_rc_t      obj_hashtable_insert  (obj_hash_table_t * const hashtblP,       const void* const keyP, const int key_sizeP, void *dataP);
+                     ^
+/home/openair/openair-cn/NAS/EMM/emm_data_ctx.c: In function ‘emm_data_context_get_by_guti’:
+/home/openair/openair-cn/NAS/EMM/emm_data_ctx.c:63:5: warning: passing argument 1 of ‘obj_hashtable_get’ from incompatible pointer type [enabled by default]
+     h_rc = obj_hashtable_get (emm_data->ctx_coll_guti, (const void *)guti, sizeof (*guti), (void **)&emm_ue_id);
+     ^
+In file included from /home/openair/openair-cn/NAS/EMM/emm_data_ctx.c:32:0:
+/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.h:63:21: note: expected ‘const struct obj_hash_table_t * const’ but argument is of type ‘struct hash_table_t *’
+ hashtable_rc_t      obj_hashtable_get     (const obj_hash_table_t * const hashtblP, const void* const keyP, const int key_sizeP, void ** dataP);
+                     ^
+/home/openair/openair-cn/NAS/EMM/emm_data_ctx.c: In function ‘emm_data_context_remove’:
+/home/openair/openair-cn/NAS/EMM/emm_data_ctx.c:97:5: warning: passing argument 1 of ‘obj_hashtable_remove’ from incompatible pointer type [enabled by default]
+     obj_hashtable_remove (emm_data->ctx_coll_guti, (const void *)(elm->guti), sizeof (*elm->guti), (void **)&emm_ue_id);
+     ^
+In file included from /home/openair/openair-cn/NAS/EMM/emm_data_ctx.c:32:0:
+/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.h:62:21: note: expected ‘struct obj_hash_table_t *’ but argument is of type ‘struct hash_table_t *’
+ hashtable_rc_t      obj_hashtable_remove(obj_hash_table_t *hashtblP, const void* keyP, const int key_sizeP, void** dataP);
+                     ^
+/home/openair/openair-cn/NAS/EMM/emm_data_ctx.c: In function ‘emm_data_context_add’:
+/home/openair/openair-cn/NAS/EMM/emm_data_ctx.c:122:103: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       h_rc = obj_hashtable_insert (emm_data->ctx_coll_guti, (void *)(elm->guti), sizeof (*elm->guti), (void *)elm->ueid);
+                                                                                                       ^
+/home/openair/openair-cn/NAS/EMM/emm_data_ctx.c:122:7: warning: passing argument 1 of ‘obj_hashtable_insert’ from incompatible pointer type [enabled by default]
+       h_rc = obj_hashtable_insert (emm_data->ctx_coll_guti, (void *)(elm->guti), sizeof (*elm->guti), (void *)elm->ueid);
+       ^
+In file included from /home/openair/openair-cn/NAS/EMM/emm_data_ctx.c:32:0:
+/home/openair/openair-cn/UTILS/HASHTABLE/obj_hashtable.h:59:21: note: expected ‘struct obj_hash_table_t * const’ but argument is of type ‘struct hash_table_t *’
+ hashtable_rc_t      obj_hashtable_insert  (obj_hash_table_t * const hashtblP,       const void* const keyP, const int key_sizeP, void *dataP);
+                     ^
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CSFallbackIndicator.c.o
+[ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverRestrictionList.c.o
+[ 62%] [ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-BroadcastCancelledAreaList.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellIdListforMDT.c.o
+[ 62%] /home/openair/openair-cn/NAS/EMM/emm_data_ctx.c: In function ‘emm_data_context_dump’:
+/home/openair/openair-cn/NAS/EMM/emm_data_ctx.c:194:26: warning: ‘remaining_size’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         size += snprintf (&key_string[0], remaining_size, "None");
+                          ^
+/home/openair/openair-cn/NAS/EMM/Attach.c: In function ‘_emm_attach_accept’:
+/home/openair/openair-cn/NAS/EMM/Attach.c:1457:43: warning: ‘rc’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   int                                     rc;
+                                           ^
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/EmmStatusHdl.c.o
+[ 62%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/Identification.c.o
+[ 62%] [ 62%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/IdleMode.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/OBJECT_IDENTIFIER.c.o
+[ 63%] [ 63%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverRequestAcknowledge.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NASSecurityParameterstoE-UTRAN.c.o
+[ 63%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/LowerLayer.c.o
+[ 64%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SecurityModeControl.c.o
+[ 64%] /home/openair/openair-cn/NAS/EMM/Identification.c: In function ‘_identification_t3470_handler’:
+/home/openair/openair-cn/NAS/EMM/Identification.c:374:43: warning: variable ‘rc’ set but not used [-Wunused-but-set-variable]
+   int                                     rc;
+                                           ^
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ServedPLMNs.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/BOOLEAN.c.o
+[ 64%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/ServiceRequestHdl.c.o
+[ 64%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/TrackingAreaUpdate.c.o
+[ 64%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/emm_as.c.o
+/home/openair/openair-cn/NAS/EMM/SecurityModeControl.c: In function ‘_security_t3460_handler’:
+/home/openair/openair-cn/NAS/EMM/SecurityModeControl.c:586:43: warning: variable ‘rc’ set but not used [-Wunused-but-set-variable]
+   int                                     rc;
+                                           ^
+/home/openair/openair-cn/NAS/EMM/SecurityModeControl.c: In function ‘_security_select_algorithms’:
+/home/openair/openair-cn/NAS/EMM/SecurityModeControl.c:803:43: warning: unused variable ‘rc’ [-Wunused-variable]
+   int                                     rc = RETURNerror;
+                                           ^
+[ 64%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/emm_cn.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000OneXSRVCCInfo.c.o
+[ 64%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmCommonProcedureInitiated.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CompletedCellinEAI.c.o
+[ 64%] [ 65%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmDeregisteredAttachNeeded.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmDeregisteredAttemptingToAttach.c.o
+[ 65%] [ 65%] [ 66%] [ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SerialNumber.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LastVisitedEUTRANCellInformation.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TraceStart.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmDeregistered.c.o
+[ 66%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmDeregisteredInitiated.c.o
+/home/openair/openair-cn/NAS/EMM/SAP/emm_cn.c: In function ‘_emm_cn_pdn_connectivity_res’:
+/home/openair/openair-cn/NAS/EMM/SAP/emm_cn.c:230:4: warning: #warning "Some work to do here about qos" [-Wcpp]
+ #  warning "Some work to do here about qos"
+    ^
+/home/openair/openair-cn/NAS/EMM/SAP/emm_cn.c:283:3: warning: passing argument 4 of ‘esm_proc_pdn_connectivity_request’ discards ‘const’ qualifier from pointer target type [enabled by default]
+   pid = esm_proc_pdn_connectivity_request (emm_ctx_p, msg_pP->pti, msg_pP->request_type, &msg_pP->apn, esm_pdn_type, &msg_pP->pdn_addr, NULL, &esm_cause);
+   ^
+In file included from /home/openair/openair-cn/NAS/EMM/SAP/emm_cn.c:53:0:
+/home/openair/openair-cn/NAS/ESM/esm_proc.h:127:5: note: expected ‘struct OctetString *’ but argument is of type ‘const struct OctetString *’
+ int esm_proc_pdn_connectivity_request(emm_data_context_t *ctx, int pti,
+     ^
+/home/openair/openair-cn/NAS/EMM/SAP/emm_cn.c:283:3: warning: passing argument 6 of ‘esm_proc_pdn_connectivity_request’ discards ‘const’ qualifier from pointer target type [enabled by default]
+   pid = esm_proc_pdn_connectivity_request (emm_ctx_p, msg_pP->pti, msg_pP->request_type, &msg_pP->apn, esm_pdn_type, &msg_pP->pdn_addr, NULL, &esm_cause);
+   ^
+In file included from /home/openair/openair-cn/NAS/EMM/SAP/emm_cn.c:53:0:
+/home/openair/openair-cn/NAS/ESM/esm_proc.h:127:5: note: expected ‘struct OctetString *’ but argument is of type ‘const struct OctetString *’
+ int esm_proc_pdn_connectivity_request(emm_data_context_t *ctx, int pti,
+     ^
+/home/openair/openair-cn/NAS/EMM/SAP/emm_cn.c:175:43: warning: unused variable ‘esm_proc_data_p’ [-Wunused-variable]
+   esm_proc_data_t                        *esm_proc_data_p = NULL;
+                                           ^
+[ 66%] [ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupListCtxtSURes.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmDeregisteredLimitedService.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-UTRAN-Trace-ID.c.o
+[ 66%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmDeregisteredNoCellAvailable.c.o
+[ 66%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmDeregisteredNoImsi.c.o
+[ 66%] [ 66%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmDeregisteredNormalService.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBConfigurationUpdateFailure.c.o
+[ 66%] [ 67%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmDeregisteredPlmnSearch.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Criticality.c.o
+[ 67%] [ 67%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RepetitionPeriod.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/emm_esm.c.o
+[ 67%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/emm_fsm.c.o
+[ 68%] [ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaID-Broadcast-Item.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UnsuccessfulOutcome.c.o
+[ 68%] /home/openair/openair-cn/NAS/EMM/SAP/emm_fsm.c: In function ‘emm_fsm_initialize’:
+/home/openair/openair-cn/NAS/EMM/SAP/emm_fsm.c:163:43: warning: unused variable ‘ueid’ [-Wunused-variable]
+   int                                     ueid;
+                                           ^
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellAccessMode.c.o
+[ 68%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmNull.c.o
+[ 68%] [ 68%] [ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-BPLMNs.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/emm_reg.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/emm_recv.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABAdmittedList.c.o
+[ 68%] [ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ProcedureCode.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/NULL.c.o
+[ 68%] [ 69%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmRegisteredAttemptingToUpdate.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmRegistered.c.o
+[ 70%] [ 70%] /home/openair/openair-cn/NAS/EMM/SAP/emm_recv.c: In function ‘emm_recv_attach_request’:
+/home/openair/openair-cn/NAS/EMM/SAP/emm_recv.c:295:2: warning: #warning " TODO gea to be review" [-Wcpp]
+ #warning " TODO gea to be review"
+  ^
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABDataForwardingList.c.o
+[ 70%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellBasedMDT.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmRegisteredImsiDetachInitiated.c.o
+[ 70%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmRegisteredInitiated.c.o
+[ 70%] [ 70%] [ 70%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmRegisteredLimitedService.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RAB-ID.c.o
+[ 70%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmRegisteredNoCellAvailable.c.o
+[ 70%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmRegisteredNormalService.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaID-Broadcast.c.o
+[ 70%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextReleaseRequest.c.o
+[ 71%] [ 71%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmRegisteredUpdateNeeded.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmRegisteredPlmnSearch.c.o
+[ 71%] [ 71%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenLACs.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/emm_sap.c.o
+[ 71%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/emm_send.c.o
+[ 71%] [ 71%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmServiceRequestInitiated.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NumberOfBroadcasts.c.o
+[ 72%] [ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CompletedCellinTAI.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/EMM/SAP/EmmTrackingAreaUpdatingInitiated.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DataCodingScheme.c.o
+[ 72%] [ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellIdentity.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/DedicatedEpsBearerContextActivation.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAI.c.o
+[ 72%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/DefaultEpsBearerContextActivation.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBStatusTransfer.c.o
+[ 73%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/EpsBearerContextDeactivation.c.o
+[ 73%] [ 74%] [ 74%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupRequest.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CancelledCellinEAI-Item.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextModificationResponse.c.o
+[ 74%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/esm_ebr.c.o
+[ 74%] [ 74%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CauseProtocol.c.o
+[ 74%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaIDList.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SRVCCOperationPossible.c.o
+/home/openair/openair-cn/NAS/ESM/esm_ebr.c: In function ‘esm_ebr_assign’:
+/home/openair/openair-cn/NAS/ESM/esm_ebr.c:165:43: warning: unused variable ‘ueid’ [-Wunused-variable]
+   unsigned int                            ueid = 0;
+                                           ^
+[ 74%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PDCP-SN.c.o
+[ 74%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextModificationFailure.c.o
+[ 74%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/esm_ebr_context.c.o
+[ 74%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/esm_ip.c.o
+[ 74%] [ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverCommand.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABModifyListBearerModRes.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SourceeNB-ID.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/der_encoder.c.o
+[ 75%] [ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABReleaseListBearerRelComp.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/esm_main.c.o
+[ 75%] [ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenLAs-Item.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-X2TNLConfigurationInfo.c.o
+/home/openair/openair-cn/NAS/ESM/esm_main.c: In function ‘esm_main_initialize’:
+/home/openair/openair-cn/NAS/ESM/esm_main.c:80:43: warning: unused variable ‘i’ [-Wunused-variable]
+   int                                     i;
+                                           ^
+[ 75%] [ 76%] [ 76%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Data-Forwarding-Not-Possible.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ConcurrentWarningMessageIndicator.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-associatedLogicalS1-ConnectionListRes.c.o
+[ 76%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/esm_pt.c.o
+/home/openair/openair-cn/NAS/ESM/esm_ebr_context.c: In function ‘esm_ebr_context_create’:
+/home/openair/openair-cn/NAS/ESM/esm_ebr_context.c:106:43: warning: unused variable ‘ueid’ [-Wunused-variable]
+   unsigned int                            ueid = 0;
+                                           ^
+/home/openair/openair-cn/NAS/ESM/esm_ebr_context.c: In function ‘esm_ebr_context_release’:
+/home/openair/openair-cn/NAS/ESM/esm_ebr_context.c:269:43: warning: unused variable ‘ueid’ [-Wunused-variable]
+   unsigned int                            ueid = 0;
+                                           ^
+[ 76%] [ 76%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/ber_tlv_length.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CNDomain.c.o
+[ 76%] [ 77%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/EsmStatusHdl.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/PdnConnectivity.c.o
+[ 77%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/PdnDisconnect.c.o
+[ 77%] [ 77%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextModificationRequest.c.o
+Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/SAP/esm_recv.c.o
+[ 77%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupListCtxtSUReq.c.o
+[ 77%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ResetAcknowledge.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/asn_codecs_prim.c.o
+[ 78%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/SAP/esm_send.c.o
+/home/openair/openair-cn/NAS/ESM/PdnConnectivity.c: In function ‘esm_proc_pdn_connectivity_request’:
+/home/openair/openair-cn/NAS/ESM/PdnConnectivity.c:180:2: warning: #warning "Uncomment code about _esm_data.conf.features & (MME_API_IPV4 | MME_API_IPV6) later" [-Wcpp]
+ #warning "Uncomment code about _esm_data.conf.features & (MME_API_IPV4 | MME_API_IPV6) later"
+  ^
+[ 78%] [ 78%] /home/openair/openair-cn/NAS/ESM/SAP/esm_send.c: In function ‘esm_send_activate_default_eps_bearer_context_request’:
+/home/openair/openair-cn/NAS/ESM/SAP/esm_send.c:304:2: warning: #warning "TEST LG FORCE APN-AMBR" [-Wcpp]
+ #warning "TEST LG FORCE APN-AMBR"
+  ^
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RelativeMMECapacity.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-StratumLevel.c.o
+[ 78%] [ 78%] Building C object CMakeFiles/LIB_NAS_MME.dir/home/openair/openair-cn/NAS/ESM/SAP/esm_sap.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SubscriberProfileIDforRFP.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EUTRANRoundTripDelayEstimationInfo.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PathSwitchRequestFailure.c.o
+[ 78%] /home/openair/openair-cn/NAS/ESM/SAP/esm_recv.c: In function ‘esm_recv_pdn_connectivity_request’:
+/home/openair/openair-cn/NAS/ESM/SAP/esm_recv.c:293:43: warning: unused variable ‘is_emergency’ [-Wunused-variable]
+   int                                     is_emergency = (request_type == ESM_PDN_REQUEST_EMERGENCY);
+                                           ^
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBX2ExtTLAs.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GUMMEIList.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PrivacyIndicator.c.o
+[ 79%] /home/openair/openair-cn/NAS/ESM/SAP/esm_sap.c:775:1: warning: ‘_esm_sap_send’ defined but not used [-Wunused-function]
+ _esm_sap_send (
+ ^
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupItemCtxtSUReq.c.o
+[ 79%] [ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/per_support.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupListBearerSURes.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEIdentityIndexValue.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAIListforWarning.c.o
+[ 80%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EUTRAN-CGI.c.o
+[ 80%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CancelledCellinTAI.c.o
+[ 80%] [ 80%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextReleaseCommand.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargetRNC-ToSourceRNC-TransparentContainer.c.o
+[ 80%] Linking C static library libLIB_NAS_MME.a
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PrivateMessage.c.o
+[ 80%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Correlation-ID.c.o
+[ 80%] [ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSwitchedDLItem.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InitiatingMessage.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CriticalityDiagnostics-IE-Item.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ImmediateMDT.c.o
+[ 81%] Built target LIB_NAS_MME
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GWContextReleaseIndication.c.o
+[ 81%] [ 81%] [ 81%] [ 82%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-S1AP-IDs.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TimeSynchronizationInfo.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/NativeEnumerated.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DL-Forwarding.c.o
+[ 82%] [ 82%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SecurityContext.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PeriodicReportingMDT.c.o
+[ 82%] [ 82%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000OneXPilot.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RIMInformation.c.o
+[ 82%] [ 82%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SynchronizationStatus.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UECapabilityInfoIndication.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WarningSecurityInfo.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverPreparationFailure.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupItemBearerSUReq.c.o
+[ 83%] [ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CompletedCellinEAI-Item.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSwitchedULList.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UplinkUEAssociatedLPPaTransport.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Global-ENB-ID.c.o
+[ 84%] [ 84%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TBCD-STRING.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ExtendedRepetitionPeriod.c.o
+[ 84%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MSClassmark3.c.o
+[ 84%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSwitchedDLList.c.o
+[ 84%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-QCI.c.o
+[ 84%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeModifiedListBearerModReq.c.o
+[ 84%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CGI.c.o
+[ 85%] [ 85%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-KillResponse.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CancelledCellinTAI-Item.c.o
+[ 85%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/xer_decoder.c.o
+[ 85%] [ 85%] [ 85%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/per_encoder.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABReleaseResponse.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CauseTransport.c.o
+[ 85%] [ 86%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABModifyItemBearerModRes.c.o
+[ 86%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ServedGUMMEIsItem.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CauseNas.c.o
+[ 86%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABItem.c.o
+[ 86%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CompletedCellinTAI-Item.c.o
+[ 86%] [ 86%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WarningType.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSwitchedULItem.c.o
+[ 86%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MeasurementsToActivate.c.o
+[ 87%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABAdmittedItem.c.o
+[ 87%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CSGMembershipStatus.c.o
+[ 87%] [ 87%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-IE.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MeasurementThresholdA2.c.o
+[ 87%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LPPa-PDU.c.o
+[ 87%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-AllocationAndRetentionPriority.c.o
+[ 87%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DeactivateTrace.c.o
+[ 88%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-S-TMSI.c.o
+[ 88%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBname.c.o
+[ 88%] [ 88%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WarningMessageContents.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MDTMode.c.o
+[ 88%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CauseRadioNetwork.c.o
+[ 88%] [ 88%] [ 89%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupListBearerSUReq.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-COUNTvalue.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupListHOReq.c.o
+[ 89%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupItemHOReq.c.o
+[ 89%] [ 89%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAI-Cancelled.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000RATType.c.o
+[ 89%] [ 89%] [ 89%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupResponse.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverCancelAcknowledge.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaID-Cancelled-Item.c.o
+[ 90%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InterfacesToTrace.c.o
+[ 90%] [ 90%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LoggingDuration.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LastVisitedUTRANCellInformation.c.o
+[ 90%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DownlinkNonUEAssociatedLPPaTransport.c.o
+[ 90%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Bearers-SubjectToStatusTransfer-Item.c.o
+[ 90%] [ 90%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBDirectInformationTransfer.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENB-UE-S1AP-ID.c.o
+[ 91%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000SectorID.c.o
+[ 91%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PathSwitchRequest.c.o
+[ 91%] [ 91%] [ 91%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupItemBearerSURes.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAI-Cancelled-Item.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAIItem.c.o
+[ 91%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/NativeInteger.c.o
+[ 91%] [ 92%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-KillRequest.c.o
+[ 92%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellID-Cancelled-Item.c.o
+/home/openair/openair-cn/BUILD/EPC/BUILD/CMakeFiles/R10.5/NativeInteger.c: In function ‘NativeInteger_decode_aper’:
+/home/openair/openair-cn/BUILD/EPC/BUILD/CMakeFiles/R10.5/NativeInteger.c:282:6: warning: variable ‘dynamic’ set but not used [-Wunused-but-set-variable]
+  int dynamic = 0;
+      ^
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MDT-Activation.c.o
+[ 92%] [ 92%] [ 92%] [ 92%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UERadioCapability.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constr_CHOICE.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Pre-emptionCapability.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-IMSI.c.o
+[ 92%] [ 93%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WriteReplaceWarningRequest.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cause.c.o
+[ 93%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constraints.c.o
+[ 93%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InitialContextSetupRequest.c.o
+[ 93%] [ 93%] [ 93%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Time-UE-StayedInCell.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PS-ServiceNotAvailable.c.o
+[ 93%] [ 94%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PagingPriority.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NAS-PDU.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ThresholdEventA2.c.o
+[ 94%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEConfigurationUpdate.c.o
+[ 94%] [ 94%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargetID.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GBR-QosInformation.c.o
+[ 94%] [ 94%] [ 94%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEAggregateMaximumBitrate.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEPagingID.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBX2ExtTLA.c.o
+[ 94%] [ 94%] [ 95%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/PrintableString.c.o
+[ 95%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/per_opentype.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MME-UE-S1AP-ID.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PriorityLevel.c.o
+[ 95%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargetRNC-ID.c.o
+[ 95%] [ 95%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UplinkS1cdma2000tunneling.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-HistoryInformation.c.o
+[ 96%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ExtendedRNC-ID.c.o
+[ 96%] [ 96%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WarningAreaList.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABReleaseItemBearerRelComp.c.o
+[ 96%] [ 96%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SecurityKey.c.o
+[ 96%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-OverloadStop.c.o
+[ 96%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBX2TLAs.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-OldBSS-ToNewBSS-Information.c.o
+[ 97%] [ 97%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/ber_tlv_tag.c.o
+Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverNotify.c.o
+[ 97%] Building C object CMakeFiles/S1AP_LIB.dir/home/openair/openair-cn/S1AP/s1ap_common.c.o
+Linking C static library libS1AP_LIB.a
+[ 97%] Built target S1AP_LIB
+[ 97%] Generating CMakeFiles/messages.xml
+[ 98%] Generating CMakeFiles/messages_xml.h
+Scanning dependencies of target mme_gw
+[ 98%] [ 98%] [ 98%] [ 98%] [100%] Building C object CMakeFiles/mme_gw.dir/home/openair/openair-cn/OAI_EPC/oai_epc_log.c.o
+Building C object CMakeFiles/mme_gw.dir/home/openair/openair-cn/SCTP/sctp_primitives_server.c.o
+Building C object CMakeFiles/mme_gw.dir/home/openair/openair-cn/GTPV1-U/gtpv1u_task.c.o
+Building C object CMakeFiles/mme_gw.dir/home/openair/openair-cn/OAI_EPC/oai_epc.c.o
+Building C object CMakeFiles/mme_gw.dir/home/openair/openair-cn/NAS/nas_mme_task.c.o
+In file included from /home/openair/openair-cn/GTPV1-U/gtpv1u_sgw_defs.h:25:0,
+                 from /home/openair/openair-cn/OAI_EPC/oai_epc.c:39:
+/home/openair/openair-cn/GTPV1-U/gtpv1u.h:40:2: warning: #warning "TO BE REFINED" [-Wcpp]
+ #warning "TO BE REFINED"
+  ^
+/home/openair/openair-cn/NAS/nas_mme_task.c: In function ‘nas_intertask_interface’:
+/home/openair/openair-cn/NAS/nas_mme_task.c:55:3: warning: label ‘next_message’ defined but not used [-Wunused-label]
+   next_message:
+   ^
+In file included from /home/openair/openair-cn/GTPV1-U/gtpv1u_task.c:38:0:
+/home/openair/openair-cn/GTPV1-U/gtpv1u.h:40:2: warning: #warning "TO BE REFINED" [-Wcpp]
+ #warning "TO BE REFINED"
+  ^
+/home/openair/openair-cn/GTPV1-U/gtpv1u_task.c: In function ‘gtpu_print_hex_octets’:
+/home/openair/openair-cn/GTPV1-U/gtpv1u_task.c:75:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘__suseconds_t’ [-Wformat=]
+   snprintf (timeofday, 64, "%02d:%02d:%02d.%06d", h, m, s, tv.tv_usec);
+   ^
+/home/openair/openair-cn/GTPV1-U/gtpv1u_task.c:75:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘__suseconds_t’ [-Wformat=]
+Linking C executable mme_gw
+[100%] Built target mme_gw
+[  0%] Built target CN_UTILS
+[  0%] Built target GTPV1U
+[  1%] Built target GTPV2C
+[  1%] Built target HASHTABLE
+[  2%] Built target ITTI
+[  6%] Built target LFDS
+[ 35%] Built target LIB_NAS_MME
+[ 36%] Built target MME_APP
+[ 36%] Built target MSC
+Scanning dependencies of target S11
+[ 37%] Building C object CMakeFiles/S11.dir/home/openair/openair-cn/S11/s11_common.c.o
+[ 37%] Building C object CMakeFiles/S11.dir/home/openair/openair-cn/S11/s11_ie_formatter.c.o
+[ 37%] Building C object CMakeFiles/S11.dir/home/openair/openair-cn/S11/s11_mme_task.c.o
+[ 37%] Building C object CMakeFiles/S11.dir/home/openair/openair-cn/S11/s11_sgw.c.o
+[ 37%] Building C object CMakeFiles/S11.dir/home/openair/openair-cn/S11/s11_mme_session_manager.c.o
+/home/openair/openair-cn/S11/s11_mme_session_manager.c: In function ‘s11_mme_release_access_bearers_request’:
+/home/openair/openair-cn/S11/s11_mme_session_manager.c:170:43: warning: unused variable ‘restart_counter’ [-Wunused-variable]
+   uint8_t                                 restart_counter = 0;
+                                           ^
+/home/openair/openair-cn/S11/s11_mme_session_manager.c:169:43: warning: unused variable ‘rc’ [-Wunused-variable]
+   NwRcT                                   rc;
+                                           ^
+[ 37%] Building C object CMakeFiles/S11.dir/home/openair/openair-cn/S11/s11_sgw_session_manager.c.o
+[ 37%] Building C object CMakeFiles/S11.dir/home/openair/openair-cn/S11/s11_sgw_bearer_manager.c.o
+Linking C static library libS11.a
+[ 37%] Built target S11
+[ 39%] Built target S1AP_EPC
+[ 95%] Built target S1AP_LIB
+[ 96%] Built target S6A
+[ 96%] Built target SCTP_SERVER
+[ 97%] Built target SECU_CN
+[ 98%] Built target SGW
+[ 98%] Built target UDP_SERVER
+[100%] Built target mme_gw
+Install the project...
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /usr/local/bin/mme_gw
+-- Installing: /usr/local/etc/oai/epc.local.enb.conf
+-- Installing: /usr/local/etc/oai/epc.conf
+-- Installing: /usr/lib/../etc/freeDiameter/mme_fd.conf
+[  4%] Built target LFDS
+[  6%] Built target S1AP_EPC
+[ 62%] Built target S1AP_LIB
+[ 63%] Built target ITTI
+[ 63%] Built target HASHTABLE
+[ 63%] Built target MSC
+[ 64%] Built target SECU_CN
+[ 64%] Built target CN_UTILS
+[ 64%] Built target GTPV1U
+[ 65%] Built target GTPV2C
+[ 65%] Built target SCTP_SERVER
+[ 65%] Built target UDP_SERVER
+[ 66%] Built target S6A
+[ 67%] Built target SGW
+[ 68%] Built target MME_APP
+[ 97%] Built target LIB_NAS_MME
+[100%] Built target mme_gw

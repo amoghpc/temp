@@ -1,0 +1,2 @@
+/usr/bin/ar cr libSCTP_SERVER.a  CMakeFiles/SCTP_SERVER.dir/home/openair/openair-cn/SCTP/sctp_common.c.o CMakeFiles/SCTP_SERVER.dir/home/openair/openair-cn/SCTP/sctp_itti_messaging.c.o CMakeFiles/SCTP_SERVER.dir/home/openair/openair-cn/SCTP/sctp_primitives_server.c.o
+/usr/bin/ranlib libSCTP_SERVER.a

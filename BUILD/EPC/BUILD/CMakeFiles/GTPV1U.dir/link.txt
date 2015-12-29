@@ -1,0 +1,2 @@
+/usr/bin/ar cr libGTPV1U.a  CMakeFiles/GTPV1U.dir/home/openair/openair-cn/GTPV1-U/gtpv1u_teid_pool.c.o
+/usr/bin/ranlib libGTPV1U.a

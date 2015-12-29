@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/openair/openair-cn/OAI_HSS/access_restriction/access_restriction.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+stdint.h
+-
+conversion.h
+/home/openair/openair-cn/OAI_HSS/access_restriction/conversion.h
+access_restriction.h
+/home/openair/openair-cn/OAI_HSS/access_restriction/access_restriction.h
+
+/home/openair/openair-cn/OAI_HSS/access_restriction/access_restriction.h
+
+/home/openair/openair-cn/OAI_HSS/utils/conversion.h
+

@@ -1,0 +1,4 @@
+/usr/local/bin/oai_hss
+/usr/local/etc/oai/hss.conf
+/usr/lib/../etc/freeDiameter/hss_fd.conf
+/usr/lib/../etc/freeDiameter/acl.conf

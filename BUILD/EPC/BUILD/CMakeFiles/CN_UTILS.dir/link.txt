@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCN_UTILS.a  CMakeFiles/CN_UTILS.dir/home/openair/openair-cn/UTILS/conversions.c.o CMakeFiles/CN_UTILS.dir/home/openair/openair-cn/UTILS/enum_string.c.o CMakeFiles/CN_UTILS.dir/home/openair/openair-cn/UTILS/log.c.o CMakeFiles/CN_UTILS.dir/home/openair/openair-cn/UTILS/mme_config.c.o CMakeFiles/CN_UTILS.dir/home/openair/openair-cn/UTILS/mcc_mnc_itu.c.o
+/usr/bin/ranlib libCN_UTILS.a

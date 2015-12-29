@@ -1,0 +1,632 @@
+################################################################################
+# Licensed to the OpenAirInterface (OAI) Software Alliance under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The OpenAirInterface Software Alliance licenses this file to You under 
+# the Apache License, Version 2.0  (the "License"); you may not use this file
+# except in compliance with the License.  
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#-------------------------------------------------------------------------------
+# For more information about the OpenAirInterface (OAI) Software Alliance:
+#      contact@openairinterface.org
+################################################################################
+
+# file build_helper
+# brief
+# author Laurent Thomas, Lionel GAUTHIER
+#
+#######################################
+SUDO=sudo
+
+###############################
+## echo and  family
+###############################
+black='\E[30m'
+red='\E[31m'
+green='\E[32m'
+yellow='\E[33m'
+blue='\E[1;34m'
+magenta='\E[35m'
+cyan='\E[36m'
+white='\E[37m'
+reset_color='\E[00m'
+COLORIZE=1
+
+cecho()  {  
+    # Color-echo
+    # arg1 = message
+    # arg2 = color
+    local default_msg="No Message."
+    message=${1:-$default_msg}
+    color=${2:-$green}
+    [ "$COLORIZE" = "1" ] && message="$color$message$reset_color"
+    echo -e "$message"
+    return
+}
+
+echo_error()   { cecho "$*" $red          ;}
+echo_fatal()   { cecho "$*" $red; exit -1 ;}
+echo_warning() { cecho "$*" $yellow       ;}
+echo_success() { cecho "$*" $green        ;}
+echo_info()    { cecho "$*" $blue         ;}
+
+
+
+###########################
+# Cleaners
+###########################
+
+clean_kernel() {
+    $SUDO modprobe ip_tables
+    $SUDO modprobe x_tables
+    $SUDO iptables -P INPUT ACCEPT
+    $SUDO iptables -F INPUT
+    $SUDO iptables -P OUTPUT ACCEPT
+    $SUDO iptables -F OUTPUT
+    $SUDO iptables -P FORWARD ACCEPT
+    $SUDO iptables -F FORWARD
+    $SUDO iptables -t nat -F
+    $SUDO iptables -t mangle -F
+    $SUDO iptables -t filter -F
+    $SUDO iptables -t raw -F
+    echo_info "Flushed iptables"
+}
+
+clean_all_files() {
+ set_openair_env
+ dir=$OPENAIRCN_DIR/BUILD
+ rm -rf $dir/LOG $OPENAIR_DIR/targets/bin/* 
+ rm -rf $dir/EPC/BUILD $dir/EPC/CMakeLists.txt
+ rm -rf $dir/MME/BUILD $dir/MME/CMakeLists.txt
+ rm -rf $dir/HSS/BUILD
+ rm -rf $dir/AUTOTESTS/BIN $dir/AUTOTESTS/LOG $dir/AUTOTESTS/*/BUILD 
+}
+
+###################################
+# Compilers
+###################################
+# arg 1 Build directory OPENAIR_DIR/BUILD/?
+# arg 2 Executable target name
+# arg 3 Executable name (no path)
+compilations() {
+  cd $OPENAIRCN_DIR/BUILD/$1/BUILD
+  {
+    rm -f $3
+    make -j`nproc` $2
+  } > $dlog/$2.txt 2>&1
+  if [ -s $3 ] ; then
+     echo_success "$2 compiled"
+     # dest dir for install may be system dir
+     echo_success "Changing permissions for installing..."
+     chmod -Rf 777 $OPENAIRCN_DIR/BUILD/$1/BUILD
+     $SUDO make install  $2 >> $dlog/$2.txt 2>&1
+  else
+     echo_error "$2 compilation failed"
+  fi
+}
+
+
+##########################################
+# X.509 certificates
+##########################################
+
+make_one_cert() {
+  fqdn=$1
+  name=$2
+  $SUDO openssl genrsa -out $name.key.pem 1024
+  $SUDO openssl req -new -batch -out $name.csr.pem -key $name.key.pem -subj /CN=$name.$fqdn/C=FR/ST=PACA/L=Aix/O=Eurecom/OU=CM
+  $SUDO openssl ca -cert cacert.pem -keyfile cakey.pem -in $name.csr.pem -out $name.cert.pem -outdir . -batch
+}
+
+make_certs(){
+    
+  fqdn=$1
+  certs_dir=$FREEDIAMETER_PREFIX/freeDiameter
+  # certificates are stored in diameter config directory
+  if [ ! -d $certs_dir ];  then
+    echo "Creating non existing directory: $certs_dir"
+    $SUDO mkdir -p $certs_dir || echo_error "can't create: $certs_dir"
+  fi
+
+  cd $certs_dir
+  echo "creating the CA certificate"
+  echo_warning "erase all existing certificates as long as the CA is regenerated"
+  $SUDO rm -f $certs_dir/*.pem
+  $SUDO mkdir -p  $certs_dir/demoCA/
+  $SUDO touch $certs_dir/demoCA/index.txt
+  $SUDO sh -c "echo 01 > $certs_dir/demoCA/serial"
+
+  # CA self certificate
+  $SUDO openssl req  -new -batch -x509 -days 3650 -nodes -newkey rsa:1024 -out cacert.pem -keyout cakey.pem -subj /CN=$fqdn/C=FR/ST=PACA/L=Aix/O=Eurecom/OU=CM
+    
+  # generate hss certificate and sign it
+  make_one_cert eur hss
+  make_one_cert eur mme
+
+  # legacy config is using a certificate named 'user'
+  make_one_cert eur user
+}
+
+
+# arg1 is force (no interactive script)
+install_xtables_addons_oai() {
+  if [ $1 -eq 0 ]; then
+    read -p "Do you want to install xtables_addons_oai ? <y/N> " prompt
+    rm_option=I
+  else
+    prompt='y'
+    rm_option=f
+  fi
+  if [[ $prompt =~ [yY](es)* ]]
+  then    
+    cd ~
+    if [ -d xtables-addons-oai ]; then
+      echo_warning "Will remove $PWD/xtables-addons-oai"
+      sudo rm -rv -$rm_option xtables-addons-oai
+      rm -rv -$rm_option xtables-addons-oai
+    fi
+    echo "Downloading xtables-addons-oai source code"
+    git clone https://gitlab.eurecom.fr/oai/xtables-addons-oai.git
+    #git clone git@gitlab.eurecom.fr:oai/xtables-addons-oai.git
+    chmod -R o+w xtables-addons-oai
+    chmod -R g+w xtables-addons-oai
+    cd xtables-addons-oai/
+    sync
+    sudo autoreconf --install --force
+    sudo ./configure 
+    sudo make
+    sudo make install
+    cd /lib/modules/`uname -r`
+    sudo depmod -a
+  fi
+}
+
+############################################
+# External packages installers
+############################################
+
+# arg1 is force (no interactive script)
+install_nettle_from_source() {
+  if [ $1 -eq 0 ]; then
+    read -p "Do you want to install nettle ? <y/N> " prompt
+  else
+    prompt='y'
+  fi
+  if [[ $prompt =~ [yY](es)* ]]
+  then    
+    cd /tmp
+    echo "Downloading nettle archive"
+    rm -rf /tmp/nettle-2.5.tar.gz* /tmp/nettle-2.5
+    wget ftp://ftp.lysator.liu.se/pub/security/lsh/nettle-2.5.tar.gz 
+    tar -xzf nettle-2.5.tar.gz
+    cd nettle-2.5/
+    ./configure --disable-openssl --enable-shared --prefix=/usr 
+    echo "Compiling nettle"
+    make -j4
+    make check 
+    $SUDO make install 
+    rm -rf /tmp/nettle-2.5.tar.gz /tmp/nettle-2.5
+  fi
+}
+
+# arg1 is force (no interactive script)
+install_gnutls_from_source(){
+  if [ $1 -eq 0 ]; then
+    read -p "Do you want to install GNU TLS ? <y/N> " prompt
+  else
+    prompt='y'
+  fi
+  if [[ $prompt =~ [yY](es)* ]]
+  then    
+    cd /tmp 
+    echo "Downloading gnutls archive"
+    rm -rf /tmp/gnutls-3.1.23.tar.xz* /tmp/gnutls-3.1.23
+    wget ftp://ftp.gnutls.org/gcrypt/gnutls/v3.1/gnutls-3.1.23.tar.xz 
+    tar -xzf gnutls-3.1.23.tar.xz
+    cd gnutls-3.1.23/
+    ./configure --prefix=/usr
+    echo "Compiling gnutls"
+    make -j4
+    $SUDO make install 
+    rm -rf /tmp/gnutls-3.1.23.tar.xz /tmp/gnutls-3.1.23
+  fi
+}
+
+# arg1 is force (no interactive script)
+install_1.1.5_freediameter_from_source() {
+  if [ $1 -eq 0 ]; then
+    read -p "Do you want to install freeDiameter 1.1.5 ? <y/N> " prompt
+  else
+    prompt='y'
+  fi
+  if [[ $prompt =~ [yY](es)* ]]
+  then    
+    cd /tmp
+    echo "Downloading 1.1.5 freeDiameter archive"
+    rm -rf /tmp/1.1.5.tar.gz* /tmp/freeDiameter-1.1.5
+    wget http://www.freediameter.net/hg/freeDiameter/archive/1.1.5.tar.gz 
+    tar xzf 1.1.5.tar.gz
+    cd freeDiameter-1.1.5
+    patch -p1 < $OPENAIRCN_DIR/S6A/freediameter/freediameter-1.1.5.patch 
+    mkdir build
+    cd build
+    cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ../ 
+    echo "Compiling freeDiameter"
+    make -j4
+    #make test 
+    $SUDO make install 
+    rm -rf /tmp/1.1.5.tar.gz /tmp/freeDiameter-1.1.5
+  fi
+}
+
+# arg1 is force (no interactive script)
+install_freediameter_from_source() {
+  if [ $1 -eq 0 ]; then
+    read -p "Do you want to install freeDiameter 1.2.0 ? <y/N> " prompt
+  else
+    prompt='y'
+  fi
+  if [[ $prompt =~ [yY](es)* ]]
+  then    
+    cd /tmp
+    echo "Downloading 1.2.0 freeDiameter archive"
+    rm -rf /tmp/1.2.0.tar.gz* /tmp/freeDiameter-1.2.0
+    wget http://www.freediameter.net/hg/freeDiameter/archive/1.2.0.tar.gz 
+    tar xzf 1.2.0.tar.gz
+    cd freeDiameter-1.2.0
+    patch -p1 < $OPENAIRCN_DIR/S6A/freediameter/freediameter-1.2.0.patch 
+    mkdir build
+    cd build
+    cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ../ 
+    echo "Compiling freeDiameter"
+    make -j4
+    #make test 
+    $SUDO make install 
+    rm -rf /tmp/1.2.0.tar.gz /tmp/freeDiameter-1.2.0
+  fi
+}
+
+# arg1 is force (no interactive script)
+install_latest_freediameter_from_source() {
+  if [ $1 -eq 0 ]; then
+    read -p "Do you want to install latest freeDiameter ? <y/N> " prompt
+  else
+    prompt='y'
+  fi
+  if [[ $prompt =~ [yY](es)* ]]
+  then    
+    cd /tmp
+    rm -rf /tmp/freeDiameter
+    echo "Downloading latest freeDiameter trunk (may be unstable)"
+    git clone https://github.com/Metaswitch/freeDiameter.git
+    cd freeDiameter
+    patch -p1 < $OPENAIRCN_DIR/S6A/freediameter/freediameter-1.2.0.patch 
+    mkdir build
+    cd build
+    cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ../ 
+    echo "Compiling freeDiameter"
+    make -j4
+    #make test 
+    $SUDO make install 
+    rm -rf /tmp/freeDiameter
+  fi
+}
+
+# arg1 is package name
+test_install_package() {
+  # usage: test_install_package package_name
+ if [ $# -eq 1 ]; then
+   dpkg -s "$1" > /dev/null 2>&1 && {
+          echo "$1 is installed." 
+      } || {
+      echo "$1 is not installed." 
+      $SUDO apt-get install --force-yes $1  
+    }
+  fi
+}
+
+check_gtpu_kmodule_installed() {
+  if [ -e /lib/modules/`uname -r`/extra/xt_GTPUSP.ko ]; then
+    echo_info "GTPU kernel module installed"
+  else
+    echo_fatal "GTPU kernel module not installed"
+  fi  
+}
+
+# arg1 is required ubuntu package name
+# arg2 is force (no interactive script)
+upgrade_kernel() {
+      
+  # check if an already suitable kernel image is installed      
+  required_kernel_version=`echo $1 | cut -d '.' -f1`
+  required_major_revision=`echo $1 | cut -d '.' -f2`
+  image_list="`dpkg-query -l linux-image-[$required_kernel_version-9]* | grep image`"
+  while read -r line; do
+    proposed_image=`echo $line | cut -d ' ' -f3`
+    if [ $proposed_image != "<none>" ]; then
+      status=`echo $line | cut -d ' ' -f1`
+      current_kernel_version=`echo $proposed_image | cut -d '.' -f1`
+      current_major_revision=`echo $proposed_image | cut -d '.' -f2`
+      if [ "$current_kernel_version" -gt "$required_kernel_version" ]; then
+        echo "$proposed_image" >> valid_installed_image_list
+      else
+        # test not necessary but depends on search string in dpkg-query
+        if [ "$current_kernel_version" -eq "$required_kernel_version" ]; then
+          if [ "$current_major_revision" -ge "$required_major_revision" ]; then
+            echo "$proposed_image" >> valid_installed_image_list
+          fi
+        fi
+      fi
+    fi
+  done <<< "$image_list"
+  latest_valid_installed_image=`echo $valid_installed_image_list | sort | tail -n1`
+  if [ "z$latest_valid_installed_image" != "z" ]; then
+    echo_error "If you want to compile and run the S-GW software on this computer you have to boot on any following installed kernel"
+  else
+    echo_error "No valid kernel installed on this OS for running the S-GW!"
+    image_list=`apt-cache search linux-image-[$required_kernel_version-9]`
+    valid_uninstalled_image_list=`tempfile`
+    while read -r line; do
+      proposed_image=`echo $line | cut -d ' ' -f1 | cut -d '-' -f3-`
+      current_kernel_version=`echo $proposed_image | cut -d '.' -f1`
+      current_major_revision=`echo $proposed_image | cut -d '.' -f2`
+      if [ "$current_kernel_version" -gt "$required_kernel_version" ]; then
+        echo "$proposed_image" >> $valid_uninstalled_image_list
+      else
+        # test not necessary but depends on search string in dpkg-query
+        if [ "$current_kernel_version" -eq "$required_kernel_version" ]; then
+          if [ "$current_major_revision" -ge "$required_major_revision" ]; then
+            echo "$proposed_image" >> $valid_uninstalled_image_list
+          fi
+        fi
+      fi
+    done <<< "$image_list"
+    latest_valid_installed_image=`cat $valid_uninstalled_image_list | sort | tail -n1`
+    echo_info "For information, here is the list of suitable kernel that can be installed on your OS:" 
+    cat $valid_uninstalled_image_list
+    rm $valid_uninstalled_image_list
+    if [ "z$latest_valid_installed_image" != "z" ]; then
+      if [ $2 -eq 0 ]; then
+        read -p "Do you want to install latest kernel $latest_valid_installed_image ? <y/N> " prompt
+      else
+        prompt='y'
+      fi
+      if [[ $prompt =~ [yY](es)* ]]
+      then    
+        echo_info "Installing new kernel $latest_valid_installed_image"
+        $SUDO apt-get install -y linux-image-$latest_valid_installed_image linux-headers-$latest_valid_installed_image && echo_warning "You have to reboot on the new installed kernel"
+      else    
+        echo_info "Not installing new kernel"
+      fi
+    else
+      echo_error "Error while trying to install new kernel"
+    fi
+  fi
+}
+
+# arg1 is required minimal version of linux-headers and linux-image
+# arg2 is force (no interactive script)
+check_kernel_release_and_install_xtables_addons_oai() {
+
+  if [ $# -eq 2 ]; then
+    current_k_release=`uname -r`
+    current_kernel_version=`echo $current_k_release | cut -d '.' -f1`
+    current_major_revision=`echo $current_k_release | cut -d '.' -f2`
+  
+    required_kernel_version=`echo $1 | cut -d '.' -f1`
+    required_major_revision=`echo $1 | cut -d '.' -f2`
+  
+    if [ $current_kernel_version -lt $required_kernel_version ]; then
+      upgrade_kernel $1
+      echo_warning "xtables_addons_oai not installed "
+      return
+    else
+      if [ $current_kernel_version -eq $required_kernel_version ]; then
+        if [ "$current_major_revision" -lt "$required_major_revision" ]; then
+          upgrade_kernel $1 $2
+          echo_warning "xtables_addons_oai not installed "
+          return
+        fi
+      fi
+    fi
+    dpkg -s "linux-headers-$current_k_release" > /dev/null 2>&1 && {
+          echo_info "$current_k_release is installed and suitable for S-GW software." 
+          install_xtables_addons_oai $2
+      } || {
+          echo_warning "Package linux-headers-$current_k_release is not installed and required for S-GW software." 
+          $SUDO apt-get install linux-headers-$current_k_release && install_xtables_addons_oai $2
+    }
+  else
+    echo_error "Please provide arguments: kernel ubuntu version and force option"
+  fi 
+}
+
+#arg1 is force (no interactive script)
+check_install_oai_software() {
+  if [ $1 -gt 0 ]; then 
+    OPTION="-y"
+  else
+    OPTION=""
+  fi
+  
+  $SUDO apt-get update
+  $SUDO apt-get install $OPTION \
+    autoconf  \
+    automake  \
+    bison     \
+    build-essential \
+    cmake \
+    cmake-curses-gui  \
+    doxygen \
+    doxygen-gui\
+    texlive-latex-base\
+    ethtool \
+    flex  \
+    gccxml \
+    gdb  \
+    git \
+    graphviz \
+    guile-2.0-dev  \
+    iperf \
+    iproute \
+    iptables \
+    iptables-dev \
+    libconfig8-dev \
+    libgcrypt11-dev \
+    libgmp-dev \
+    libgtk-3-dev \
+    libidn2-0-dev  \
+    libidn11-dev \
+    libmysqlclient-dev  \
+    libsctp1  \
+    libsctp-dev  \
+    libssl-dev  \
+    libtasn1-3-dev  \
+    libtool  \
+    libxml2 \
+    libxml2-dev  \
+    linux-headers-`uname -r` \
+    mscgen  \
+    mysql-client  \
+    mysql-server \
+    openssh-client \
+    openssh-server \
+    openssl \
+    python  \
+    subversion
+    if [ `lsb_release -rs` = '12.04' ]; then
+      install_nettle_from_source $1
+      install_gnutls_from_source $1
+    else
+        $SUDO apt-get install $OPTION libgnutls-dev nettle-dev nettle-bin 
+    fi
+    install_freediameter_from_source $1
+    install_asn1c_from_source $1
+    
+  $SUDO apt-get install $OPTION \
+    check \
+    dialog \
+    dkms \
+    gawk \
+    libboost-all-dev \
+    libpthread-stubs0-dev \
+    openvpn \
+    phpmyadmin \
+    pkg-config \
+    python-dev  \
+    python-pexpect \
+    sshfs \
+    swig  \
+    tshark \
+    uml-utilities \
+    unzip  \
+    valgrind  \
+    vlan    \
+    ctags    
+    
+  check_kernel_release_and_install_xtables_addons_oai 3.19.0-28-generic $1
+}
+
+install_asn1c_from_source(){
+    if [ $1 -eq 0 ]; then
+      read -p "Do you want to install asn1c rev 1516 patched? <y/N> " prompt
+    else
+      prompt='y'
+    fi
+
+  if [[ $prompt =~ [yY](es)* ]]
+  then    
+    mkdir -p /tmp/asn1c-r1516
+    cd /tmp/asn1c-r1516
+    rm -rf /tmp/asn1c-r1516/*
+    svn co https://github.com/vlm/asn1c/trunk  /tmp/asn1c-r1516 -r 1516 > /tmp/log_compile_asn1c
+    patch -p0 < $OPENAIRCN_DIR/S1AP/MESSAGES/ASN1/asn1cpatch.p0 >> /tmp/log_compile_asn1c
+    patch -p0 < $OPENAIRCN_DIR/S1AP/MESSAGES/ASN1/asn1cpatch_2.p0 >> /tmp/log_compile_asn1c
+    ./configure
+    make > /tmp/log_compile_asn1c 2>&1
+    $SUDO make install
+  fi
+}
+
+
+##################################
+# create HSS DB
+################################
+
+# arg 1 is mysql admin     (ex: root)
+# arg 2 is mysql password  (ex: linux)
+# arg 3 is hss username    (ex: hssadmin)
+# arg 4 is hss password    (ex: admin)
+# arg 5 is database name   (ex: oai_db)
+create_hss_database(){
+  EXPECTED_ARGS=5
+  if [ $# -ne $EXPECTED_ARGS ]
+  then
+    echo_error "Usage: $0 dbadmin dbpass hssuser hsspass databasename"
+    return 1
+  fi
+  local mysql_admin=$1
+  local mysql_password=$2
+  local hss_username=$3
+  local hss_password=$4
+  local database_name=$5
+    
+  Q1="GRANT ALL PRIVILEGES ON *.* TO '$hss_username'@'localhost' IDENTIFIED BY '$hss_password' WITH GRANT OPTION;"
+  Q2="FLUSH PRIVILEGES;"
+  mysql -u $mysql_admin --password=$mysql_password -e "${Q1}${Q2}"
+  if [ $? -ne 0 ]; then
+    echo_error "HSS: $hss_username permissions creation failed"
+    echo_error "verify root password for mysql is linux: mysql -u root --password=linux"
+    echo_error "if not, reset it to "linux" with sudo dpkg-reconfigure mysql-server-5.5"
+    return 1
+  else
+    echo_success "HSS: $hss_username permissions creation succeeded"
+  fi
+    
+  Q3="CREATE DATABASE IF NOT EXISTS $database_name;"
+  mysql -u $hss_username --password=$hss_password -e "${Q3}"
+  if [ $? -ne 0 ]; then
+    echo_error "HSS: $database_name creation failed"
+    return 1
+  else
+    echo_success "HSS: $database_name creation succeeded"
+  fi
+
+    
+  # test if tables have been created
+  mysql -u $hss_username --password=$hss_password  -e "desc $database_name.users" > /dev/null 2>&1
+  if [ $? -eq 1 ]; then 
+    mysql -u $hss_username --password=$hss_password $database_name < $OPENAIRCN_DIR/OPENAIRHSS/db/$database_name.sql
+    if [ $? -ne 0 ]; then
+      echo_error "HSS: $database_name tables creation failed"
+      return 1
+    else
+      echo_success "HSS: $database_name tables creation succeeded"
+    fi
+  else
+      echo_success "HSS: $database_name tables already created, nothing done"
+  fi 
+  return 0
+}
+
+################################
+# set_openair_env
+###############################
+set_openair_env(){
+    fullpath=`readlink -f $BASH_SOURCE`
+    [ -f "/.$fullpath" ] || fullpath=`readlink -f $PWD/$fullpath`
+    openair_path=${fullpath%/BUILD/*}
+    openair_path=${openair_path%/DOCS/*}
+    openair_path=${openair_path%/NAS/*}
+    openair_path=${openair_path%/S6A/*}    
+    export OPENAIRCN_DIR=$openair_path
+}
+

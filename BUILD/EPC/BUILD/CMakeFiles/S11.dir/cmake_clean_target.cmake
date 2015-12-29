@@ -1,0 +1,3 @@
+FILE(REMOVE_RECURSE
+  "libS11.a"
+)

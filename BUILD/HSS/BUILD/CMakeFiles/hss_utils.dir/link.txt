@@ -1,0 +1,2 @@
+/usr/bin/ar cr libhss_utils.a  CMakeFiles/hss_utils.dir/home/openair/openair-cn/OAI_HSS/utils/conversion.c.o CMakeFiles/hss_utils.dir/home/openair/openair-cn/OAI_HSS/utils/hss_config.c.o
+/usr/bin/ranlib libhss_utils.a
